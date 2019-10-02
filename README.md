@@ -1,7 +1,7 @@
 # amio-postman-collection
 This is a Postman collection of [Amio API](https://docs.amio.io/docs/amio-introduction).  The provided environment contains the list of variables referenced by the API collection.
 
-Check out our blog for usage instructions
+Check out our blog for usage instructions:
 https://blog.amio.io/setup-postman-for-amio-api/
 
 ## Requirements
