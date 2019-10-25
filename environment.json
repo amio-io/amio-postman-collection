@@ -126,9 +126,19 @@
 			"key": "viber.contact.id",
 			"value": "{{TO_BE_SET}}",
 			"enabled": true
+		},
+		{
+			"key": "whatsapp.channel.id",
+			"value": "{{TO_BE_SET}}",
+			"enabled": true
+		},
+		{
+			"key": "whatsapp.contact.id",
+			"value": "{{TO_BE_SET}}",
+			"enabled": true
 		}
 	],
 	"_postman_variable_scope": "environment",
-	"_postman_exported_at": "2019-10-02T08:20:31.795Z",
-	"_postman_exported_using": "Postman/7.8.0"
+	"_postman_exported_at": "2019-10-25T11:58:59.905Z",
+	"_postman_exported_using": "Postman/7.9.0"
 }
