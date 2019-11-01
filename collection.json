@@ -753,6 +753,7 @@
 							]
 						}
 					],
+					"protocolProfileBehavior": {},
 					"_postman_isSubFolder": true
 				},
 				{
@@ -978,7 +979,7 @@
 											"key": "JSESSIONID"
 										}
 									],
-									"body": "[\n    {\n        \"id\": \"151845599083747\",\n        \"sent\": \"2018-02-12T17:19:49.692Z\",\n        \"delivered\": \"2018-02-12T17:19:52Z\",\n        \"read\": \"2018-02-12T17:19:52Z\",\n        \"direction\": \"sent\",\n        \"channel\": {\n            \"id\": \"151601809387428\",\n            \"type\": \"facebook_messenger\"\n        },\n        \"contact\": {\n            \"id\": \"1255524614484281\"\n        },\n        \"content\": {\n            \"payload\": \"Hello world!\",\n            \"type\": \"text\"\n        }\n    },\n    {\n        \"id\": \"151845594619884\",\n        \"sent\": \"2018-02-12T17:19:04.010Z\",\n        \"delivered\": \"2018-02-12T17:19:07Z\",\n        \"read\": \"2018-02-12T17:19:13Z\",\n        \"direction\": \"sent\",\n        \"channel\": {\n            \"id\": \"151601809387428\",\n            \"type\": \"facebook_messenger\"\n        },\n        \"contact\": {\n            \"id\": \"1255524614484281\"\n        },\n        \"content\": {\n            \"payload\": \"Hello world!\",\n            \"type\": \"text\"\n        }\n    },\n    {\n        \"id\": \"151799774995833\",\n        \"sent\": \"2018-02-07T10:02:29.338Z\",\n        \"delivered\": \"2018-02-07T10:02:33Z\",\n        \"read\": \"2018-02-07T13:23:08Z\",\n        \"direction\": \"sent\",\n        \"channel\": {\n            \"id\": \"151601809387428\",\n            \"type\": \"facebook_messenger\"\n        },\n        \"contact\": {\n            \"id\": \"1255524614484281\"\n        },\n        \"content\": {\n            \"payload\": \"Ahoj\",\n            \"type\": \"text\"\n        },\n        \"metadata\": {\n            \"sent_by\": \"Matouš Kučera\",\n            \"uuid\": \"01a3e3c0-0bee-11e8-9f71-217a3eb318e8\"\n        }\n    },\n    {\n        \"id\": \"151782858273169\",\n        \"sent\": \"2018-02-05T11:03:02.730Z\",\n        \"delivered\": \"2018-02-05T11:03:02Z\",\n        \"read\": \"2018-02-05T11:03:03Z\",\n        \"direction\": \"sent\",\n        \"channel\": {\n            \"id\": \"151601809387428\",\n            \"type\": \"facebook_messenger\"\n        },\n        \"contact\": {\n            \"id\": \"1255524614484281\"\n        },\n        \"content\": {\n            \"payload\": \"Thanks for messaging us. We try to be as responsive as possible. We'll get back to you soon.\",\n            \"type\": \"text\"\n        }\n    },\n    {\n        \"id\": \"151752221128068\",\n        \"sent\": \"2018-02-01T21:56:50.412Z\",\n        \"delivered\": \"2018-02-01T21:56:51Z\",\n        \"read\": \"2018-02-01T21:56:52Z\",\n        \"direction\": \"sent\",\n        \"channel\": {\n            \"id\": \"151601809387428\",\n            \"type\": \"facebook_messenger\"\n        },\n        \"contact\": {\n            \"id\": \"1255524614484281\"\n        },\n        \"content\": {\n            \"payload\": \"lao\",\n            \"type\": \"text\"\n        },\n        \"metadata\": {\n            \"sent_by\": \"Matouš Kučera\",\n            \"uuid\": \"ce383bf0-079a-11e8-b3c4-99a6b0a92695\"\n        }\n    },\n    {\n        \"id\": \"151752219645728\",\n        \"sent\": \"2018-02-01T21:56:36.453Z\",\n        \"delivered\": \"2018-02-01T21:56:40Z\",\n        \"read\": \"2018-02-01T21:56:52Z\",\n        \"direction\": \"sent\",\n        \"channel\": {\n            \"id\": \"151601809387428\",\n            \"type\": \"facebook_messenger\"\n        },\n        \"contact\": {\n            \"id\": \"1255524614484281\"\n        },\n        \"content\": {\n            \"payload\": \"Hi Matouš, thanks for your message. We are not here right now, but we'll get back to you soon!\",\n            \"type\": \"text\"\n        }\n    },\n    {\n        \"id\": \"151752219619999\",\n        \"sent\": \"2018-02-01T21:56:36.197Z\",\n        \"delivered\": null,\n        \"read\": null,\n        \"direction\": \"received\",\n        \"channel\": {\n            \"id\": \"151601809387428\",\n            \"type\": \"facebook_messenger\"\n        },\n        \"contact\": {\n            \"id\": \"1255524614484281\"\n        },\n        \"content\": {\n            \"payload\": \"ola\",\n            \"type\": \"text\"\n        }\n    },\n    {\n        \"id\": \"151739274220361\",\n        \"sent\": \"2018-01-31T09:59:02.202Z\",\n        \"delivered\": null,\n        \"read\": null,\n        \"direction\": \"received\",\n        \"channel\": {\n            \"id\": \"151601809387428\",\n            \"type\": \"facebook_messenger\"\n        },\n        \"contact\": {\n            \"id\": \"1255524614484281\"\n        },\n        \"content\": {\n            \"payload\": \"aaa\",\n            \"type\": \"text\"\n        }\n    }\n]"
+									"body": "[\n    {\n        \"id\": \"151845599083747\",\n        \"sent\": \"2018-02-12T17:19:49.692Z\",\n        \"delivered\": \"2018-02-12T17:19:52Z\",\n        \"read\": \"2018-02-12T17:19:52Z\",\n        \"direction\": \"sent\",\n        \"channel\": {\n            \"id\": \"151601809387428\",\n            \"type\": \"facebook_messenger\"\n        },\n        \"contact\": {\n            \"id\": \"1255524614484281\"\n        },\n        \"content\": {\n            \"payload\": \"Hello world!\",\n            \"type\": \"text\"\n        }\n    },\n    {\n        \"id\": \"151845594619884\",\n        \"sent\": \"2018-02-12T17:19:04.010Z\",\n        \"delivered\": \"2018-02-12T17:19:07Z\",\n        \"read\": \"2018-02-12T17:19:13Z\",\n        \"direction\": \"sent\",\n        \"channel\": {\n            \"id\": \"151601809387428\",\n            \"type\": \"facebook_messenger\"\n        },\n        \"contact\": {\n            \"id\": \"1255524614484281\"\n        },\n        \"content\": {\n            \"payload\": \"Hello world!\",\n            \"type\": \"text\"\n        }\n    },\n    {\n        \"id\": \"151799774995833\",\n        \"sent\": \"2018-02-07T10:02:29.338Z\",\n        \"delivered\": \"2018-02-07T10:02:33Z\",\n        \"read\": \"2018-02-07T13:23:08Z\",\n        \"direction\": \"sent\",\n        \"channel\": {\n            \"id\": \"151601809387428\",\n            \"type\": \"facebook_messenger\"\n        },\n        \"contact\": {\n            \"id\": \"1255524614484281\"\n        },\n        \"content\": {\n            \"payload\": \"Ahoj\",\n            \"type\": \"text\"\n        },\n        \"metadata\": {\n            \"sent_by\": \"MatouÅ¡ KuÄera\",\n            \"uuid\": \"01a3e3c0-0bee-11e8-9f71-217a3eb318e8\"\n        }\n    },\n    {\n        \"id\": \"151782858273169\",\n        \"sent\": \"2018-02-05T11:03:02.730Z\",\n        \"delivered\": \"2018-02-05T11:03:02Z\",\n        \"read\": \"2018-02-05T11:03:03Z\",\n        \"direction\": \"sent\",\n        \"channel\": {\n            \"id\": \"151601809387428\",\n            \"type\": \"facebook_messenger\"\n        },\n        \"contact\": {\n            \"id\": \"1255524614484281\"\n        },\n        \"content\": {\n            \"payload\": \"Thanks for messaging us. We try to be as responsive as possible. We'll get back to you soon.\",\n            \"type\": \"text\"\n        }\n    },\n    {\n        \"id\": \"151752221128068\",\n        \"sent\": \"2018-02-01T21:56:50.412Z\",\n        \"delivered\": \"2018-02-01T21:56:51Z\",\n        \"read\": \"2018-02-01T21:56:52Z\",\n        \"direction\": \"sent\",\n        \"channel\": {\n            \"id\": \"151601809387428\",\n            \"type\": \"facebook_messenger\"\n        },\n        \"contact\": {\n            \"id\": \"1255524614484281\"\n        },\n        \"content\": {\n            \"payload\": \"lao\",\n            \"type\": \"text\"\n        },\n        \"metadata\": {\n            \"sent_by\": \"MatouÅ¡ KuÄera\",\n            \"uuid\": \"ce383bf0-079a-11e8-b3c4-99a6b0a92695\"\n        }\n    },\n    {\n        \"id\": \"151752219645728\",\n        \"sent\": \"2018-02-01T21:56:36.453Z\",\n        \"delivered\": \"2018-02-01T21:56:40Z\",\n        \"read\": \"2018-02-01T21:56:52Z\",\n        \"direction\": \"sent\",\n        \"channel\": {\n            \"id\": \"151601809387428\",\n            \"type\": \"facebook_messenger\"\n        },\n        \"contact\": {\n            \"id\": \"1255524614484281\"\n        },\n        \"content\": {\n            \"payload\": \"Hi MatouÅ¡, thanks for your message. We are not here right now, but we'll get back to you soon!\",\n            \"type\": \"text\"\n        }\n    },\n    {\n        \"id\": \"151752219619999\",\n        \"sent\": \"2018-02-01T21:56:36.197Z\",\n        \"delivered\": null,\n        \"read\": null,\n        \"direction\": \"received\",\n        \"channel\": {\n            \"id\": \"151601809387428\",\n            \"type\": \"facebook_messenger\"\n        },\n        \"contact\": {\n            \"id\": \"1255524614484281\"\n        },\n        \"content\": {\n            \"payload\": \"ola\",\n            \"type\": \"text\"\n        }\n    },\n    {\n        \"id\": \"151739274220361\",\n        \"sent\": \"2018-01-31T09:59:02.202Z\",\n        \"delivered\": null,\n        \"read\": null,\n        \"direction\": \"received\",\n        \"channel\": {\n            \"id\": \"151601809387428\",\n            \"type\": \"facebook_messenger\"\n        },\n        \"contact\": {\n            \"id\": \"1255524614484281\"\n        },\n        \"content\": {\n            \"payload\": \"aaa\",\n            \"type\": \"text\"\n        }\n    }\n]"
 								}
 							]
 						},
@@ -2628,7 +2629,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n  \"channel\": {\n    \"id\": \"{{fb.channel.id}}\"\n  },\n  \"contact\": {\n    \"id\": \"{{fb.contact.id}}\"\n  },\n  \"content\": {\n    \"type\": \"receipt\",\n    \"payload\": {\n      \"order_id\": \"id546584\",\n      \"timestamp\": \"2016-10-06T13:42:48Z\",\n      \"currency\": \"USD\",\n      \"payment_method\": \"Visa ***8138.\",\n      \"url_order\": \"http://petersapparel.parseapp.com/order?order_id=id546584\",\n      \"shipping_address\": {\n        \"name\": \"Tomáš Baťa\",\n        \"address_line_1\": \"tř. Tomáše Bati 46\",\n        \"address_line_2\": \"company Bata a.s.\",\n        \"city\": \"Otrokovice\",\n        \"postal_code\": \"765 02\",\n        \"state\": \"Zlín Region\",\n        \"country_code\": \"CZ\"\n      },\n      \"items\": [\n        {\n          \"title\": \"Winter Mens' Footware\",\n          \"text\": \"100% Leather\",\n          \"quantity\": 1,\n          \"price\": 67.5,\n          \"image_url\": \"http://3-cz-cdn.bata.eu/gallery/1/6/4/5/7/c.jpg\"\n        }\n      ],\n      \"summary\": {\n        \"shipping\": 4.95,\n        \"tax\": 6.19,\n        \"total\": 78.64\n      }\n    }\n  }\n}"
+									"raw": "{\n  \"channel\": {\n    \"id\": \"{{fb.channel.id}}\"\n  },\n  \"contact\": {\n    \"id\": \"{{fb.contact.id}}\"\n  },\n  \"content\": {\n    \"type\": \"receipt\",\n    \"payload\": {\n      \"order_id\": \"id546584\",\n      \"timestamp\": \"2016-10-06T13:42:48Z\",\n      \"currency\": \"USD\",\n      \"payment_method\": \"Visa ***8138.\",\n      \"url_order\": \"http://petersapparel.parseapp.com/order?order_id=id546584\",\n      \"shipping_address\": {\n        \"name\": \"TomÃ¡Å¡ BaÅ¥a\",\n        \"address_line_1\": \"tÅ™. TomÃ¡Å¡e Bati 46\",\n        \"address_line_2\": \"company Bata a.s.\",\n        \"city\": \"Otrokovice\",\n        \"postal_code\": \"765 02\",\n        \"state\": \"ZlÃ­n Region\",\n        \"country_code\": \"CZ\"\n      },\n      \"items\": [\n        {\n          \"title\": \"Winter Mens' Footware\",\n          \"text\": \"100% Leather\",\n          \"quantity\": 1,\n          \"price\": 67.5,\n          \"image_url\": \"http://3-cz-cdn.bata.eu/gallery/1/6/4/5/7/c.jpg\"\n        }\n      ],\n      \"summary\": {\n        \"shipping\": 4.95,\n        \"tax\": 6.19,\n        \"total\": 78.64\n      }\n    }\n  }\n}"
 								},
 								"url": {
 									"raw": "{{server_url}}{{api_version}}/messages",
@@ -2658,7 +2659,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\n\t\"channel\": {\n\t\t\"id\": \"{{fb.channel.id}}\"\n\t},\n\t\"contact\": {\n\t\t\"id\": \"{{fb.contact.id}}\"\n\t},\n\t\"content\": {\n\t\t\"type\": \"receipt\",\n\t\t\"payload\": {\n\t\t\t\"order_id\": \"id546584\",\n\t\t\t\"timestamp\": \"2016-10-06T13:42:48Z\",\n\t\t\t\"currency\": \"USD\",\n\t\t\t\"payment_method\": \"Visa ***8138.\",\n\t\t\t\"url_order\": \"http://petersapparel.parseapp.com/order?order_id=id546584\",\n\t\t\t\"shipping_address\": {\n\t\t\t\t\"name\": \"Tomáš Baťa\",\n\t\t\t\t\"address_line_1\": \"tř. Tomáše Bati 46\",\n\t\t\t\t\"address_line_2\": \"company Bata a.s.\",\n\t\t\t\t\"city\": \"Otrokovice\",\n\t\t\t\t\"postal_code\": \"765 02\",\n\t\t\t\t\"state\": \"Zlín Region\",\n\t\t\t\t\"country_code\": \"CZ\"\n\t\t\t},\n\t\t\t\"items\": [\n\t\t\t\t{\n\t\t\t\t\t\"title\": \"Winter Mens' Footware\",\n\t\t\t\t\t\"text\": \"100% Leather\",\n\t\t\t\t\t\"quantity\": 1,\n\t\t\t\t\t\"price\": 67.5,\n\t\t\t\t\t\"image_url\": \"http://3-cz-cdn.bata.eu/gallery/1/6/4/5/7/c.jpg\"\n\t\t\t\t}\n\t\t\t],\n\t\t\t\"summary\": {\n\t\t\t\t\"shipping\": 4.95,\n\t\t\t\t\"tax\": 6.19,\n\t\t\t\t\"total\": 78.64\n\t\t\t}\n\t\t}\n\t}\n}"
+											"raw": "{\n\t\"channel\": {\n\t\t\"id\": \"{{fb.channel.id}}\"\n\t},\n\t\"contact\": {\n\t\t\"id\": \"{{fb.contact.id}}\"\n\t},\n\t\"content\": {\n\t\t\"type\": \"receipt\",\n\t\t\"payload\": {\n\t\t\t\"order_id\": \"id546584\",\n\t\t\t\"timestamp\": \"2016-10-06T13:42:48Z\",\n\t\t\t\"currency\": \"USD\",\n\t\t\t\"payment_method\": \"Visa ***8138.\",\n\t\t\t\"url_order\": \"http://petersapparel.parseapp.com/order?order_id=id546584\",\n\t\t\t\"shipping_address\": {\n\t\t\t\t\"name\": \"TomÃ¡Å¡ BaÅ¥a\",\n\t\t\t\t\"address_line_1\": \"tÅ™. TomÃ¡Å¡e Bati 46\",\n\t\t\t\t\"address_line_2\": \"company Bata a.s.\",\n\t\t\t\t\"city\": \"Otrokovice\",\n\t\t\t\t\"postal_code\": \"765 02\",\n\t\t\t\t\"state\": \"ZlÃ­n Region\",\n\t\t\t\t\"country_code\": \"CZ\"\n\t\t\t},\n\t\t\t\"items\": [\n\t\t\t\t{\n\t\t\t\t\t\"title\": \"Winter Mens' Footware\",\n\t\t\t\t\t\"text\": \"100% Leather\",\n\t\t\t\t\t\"quantity\": 1,\n\t\t\t\t\t\"price\": 67.5,\n\t\t\t\t\t\"image_url\": \"http://3-cz-cdn.bata.eu/gallery/1/6/4/5/7/c.jpg\"\n\t\t\t\t}\n\t\t\t],\n\t\t\t\"summary\": {\n\t\t\t\t\"shipping\": 4.95,\n\t\t\t\t\"tax\": 6.19,\n\t\t\t\t\"total\": 78.64\n\t\t\t}\n\t\t}\n\t}\n}"
 										},
 										"url": {
 											"raw": "{{server_url}}{{api_version}}/messages",
@@ -2749,7 +2750,7 @@
 										}
 									],
 									"cookie": [],
-									"body": "{\n    \"id\": \"151136698322158\",\n    \"channel\": {\n        \"id\": \"151445772969853\",\n        \"type\": \"facebook_messenger\"\n    },\n    \"contact\": {\n        \"id\": \"1096280500453211\"\n    },\n    \"content\": {\n        \"type\": \"receipt\",\n        \"payload\": {\n            \"timestamp\": \"2016-10-06T13:42:48Z\",\n            \"currency\": \"USD\",\n            \"order_id\": \"id546584\",\n            \"payment_method\": \"Visa ***8138.\",\n            \"url_order\": \"http://petersapparel.parseapp.com/order?order_id=id546584\",\n            \"shipping_address\": {\n                \"name\": \"Tomáš Baťa\",\n                \"address_line_1\": \"tř. Tomáše Bati 46\",\n                \"address_line_2\": \"company Bata a.s.\",\n                \"postal_code\": \"765 02\",\n                \"state\": \"Zlín Region\",\n                \"country_code\": \"CZ\",\n                \"city\": \"Otrokovice\"\n            },\n            \"items\": [\n                {\n                    \"title\": \"Winter Mens' Footware\",\n                    \"text\": \"100% Leather\",\n                    \"quantity\": 1,\n                    \"price\": 67.5,\n                    \"image_url\": \"http://3-cz-cdn.bata.eu/gallery/1/6/4/5/7/c.jpg\"\n                }\n            ],\n            \"summary\": {\n                \"shipping\": 4.95000000000000017763568394002504646778106689453125,\n                \"tax\": 6.19000000000000039079850466805510222911834716796875,\n                \"total\": 78.6400000000000005684341886080801486968994140625\n            }\n        }\n    }\n}"
+									"body": "{\n    \"id\": \"151136698322158\",\n    \"channel\": {\n        \"id\": \"151445772969853\",\n        \"type\": \"facebook_messenger\"\n    },\n    \"contact\": {\n        \"id\": \"1096280500453211\"\n    },\n    \"content\": {\n        \"type\": \"receipt\",\n        \"payload\": {\n            \"timestamp\": \"2016-10-06T13:42:48Z\",\n            \"currency\": \"USD\",\n            \"order_id\": \"id546584\",\n            \"payment_method\": \"Visa ***8138.\",\n            \"url_order\": \"http://petersapparel.parseapp.com/order?order_id=id546584\",\n            \"shipping_address\": {\n                \"name\": \"TomÃ¡Å¡ BaÅ¥a\",\n                \"address_line_1\": \"tÅ™. TomÃ¡Å¡e Bati 46\",\n                \"address_line_2\": \"company Bata a.s.\",\n                \"postal_code\": \"765 02\",\n                \"state\": \"ZlÃ­n Region\",\n                \"country_code\": \"CZ\",\n                \"city\": \"Otrokovice\"\n            },\n            \"items\": [\n                {\n                    \"title\": \"Winter Mens' Footware\",\n                    \"text\": \"100% Leather\",\n                    \"quantity\": 1,\n                    \"price\": 67.5,\n                    \"image_url\": \"http://3-cz-cdn.bata.eu/gallery/1/6/4/5/7/c.jpg\"\n                }\n            ],\n            \"summary\": {\n                \"shipping\": 4.95000000000000017763568394002504646778106689453125,\n                \"tax\": 6.19000000000000039079850466805510222911834716796875,\n                \"total\": 78.6400000000000005684341886080801486968994140625\n            }\n        }\n    }\n}"
 								}
 							]
 						},
@@ -2837,7 +2838,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n  \"channel\": {\n    \"id\": \"{{fb.channel.id}}\"\n  },\n  \"contact\": {\n    \"id\": \"{{fb.contact.id}}\"\n  },\n  \"content\": {\n    \"type\": \"structure\",\n    \"payload\": {\n            \"title\": \"Leaf salad with smoked eggplant and zuchhini and dried tomatoes\",\n            \"text\": \"9.5 €\",\n            \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/f/fa/Fish_-lunch.jpg\",\n            \"item_url\": \"https://example.com/daily-menu\",\n            \"buttons\": [\n                {\n                    \"type\": \"url\",\n                    \"title\": \"Show Details\",\n                    \"payload\": \"https://example.com/daily-menu/food-1\"\n                }\n            ]\n        }\n  }\n}"
+									"raw": "{\n  \"channel\": {\n    \"id\": \"{{fb.channel.id}}\"\n  },\n  \"contact\": {\n    \"id\": \"{{fb.contact.id}}\"\n  },\n  \"content\": {\n    \"type\": \"structure\",\n    \"payload\": {\n            \"title\": \"Leaf salad with smoked eggplant and zuchhini and dried tomatoes\",\n            \"text\": \"9.5 â‚¬\",\n            \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/f/fa/Fish_-lunch.jpg\",\n            \"item_url\": \"https://example.com/daily-menu\",\n            \"buttons\": [\n                {\n                    \"type\": \"url\",\n                    \"title\": \"Show Details\",\n                    \"payload\": \"https://example.com/daily-menu/food-1\"\n                }\n            ]\n        }\n  }\n}"
 								},
 								"url": {
 									"raw": "{{server_url}}{{api_version}}/messages",
@@ -2867,7 +2868,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\n\t\"channel\": {\n\t\t\"id\": \"{{fb.channel.id}}\"\n\t},\n\t\"contact\": {\n\t\t\"id\": \"{{fb.contact.id}}\"\n\t},\n\t\"content\": {\n\t\t\"type\": \"structure\",\n\t\t\"payload\": {\n\t\t\t\"title\": \"Leaf salad with smoked eggplant and zuchhini and dried tomatoes\",\n\t\t\t\"text\": \"9.5 €\",\n\t\t\t\"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/f/fa/Fish_-lunch.jpg\",\n\t\t\t\"item_url\": \"https://example.com/daily-menu\",\n\t\t\t\"buttons\": [\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"url\",\n\t\t\t\t\t\"title\": \"Show Details\",\n\t\t\t\t\t\"payload\": \"https://example.com/daily-menu/food-1\"\n\t\t\t\t}\n\t\t\t]\n\t\t}\n\t}\n}"
+											"raw": "{\n\t\"channel\": {\n\t\t\"id\": \"{{fb.channel.id}}\"\n\t},\n\t\"contact\": {\n\t\t\"id\": \"{{fb.contact.id}}\"\n\t},\n\t\"content\": {\n\t\t\"type\": \"structure\",\n\t\t\"payload\": {\n\t\t\t\"title\": \"Leaf salad with smoked eggplant and zuchhini and dried tomatoes\",\n\t\t\t\"text\": \"9.5 â‚¬\",\n\t\t\t\"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/f/fa/Fish_-lunch.jpg\",\n\t\t\t\"item_url\": \"https://example.com/daily-menu\",\n\t\t\t\"buttons\": [\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"url\",\n\t\t\t\t\t\"title\": \"Show Details\",\n\t\t\t\t\t\"payload\": \"https://example.com/daily-menu/food-1\"\n\t\t\t\t}\n\t\t\t]\n\t\t}\n\t}\n}"
 										},
 										"url": {
 											"raw": "{{server_url}}{{api_version}}/messages",
@@ -2976,7 +2977,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\n\t\"channel\": {\n\t\t\"id\": \"{{fb.channel.id}}\"\n\t},\n\t\"contact\": {\n\t\t\"id\": \"{{fb.contact.id}}\"\n\t},\n\t\"content\": {\n\t\t\"type\": \"structure\",\n\t\t\"payload\": {\n\t\t\t\"title\": \"Leaf salad with smoked eggplant and zuchhini and dried tomatoes\",\n\t\t\t\"text\": \"9.5 €\",\n\t\t\t\"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/f/fa/Fish_-lunch.jpg\",\n\t\t\t\"item_url\": \"https://example.com/daily-menu\",\n\t\t\t\"buttons\": [\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"url\",\n\t\t\t\t\t\"title\": \"Show Details\",\n\t\t\t\t\t\"payload\": \"https://example.com/daily-menu/food-1\"\n\t\t\t\t}\n\t\t\t]\n\t\t}\n\t}\n}"
+											"raw": "{\n\t\"channel\": {\n\t\t\"id\": \"{{fb.channel.id}}\"\n\t},\n\t\"contact\": {\n\t\t\"id\": \"{{fb.contact.id}}\"\n\t},\n\t\"content\": {\n\t\t\"type\": \"structure\",\n\t\t\"payload\": {\n\t\t\t\"title\": \"Leaf salad with smoked eggplant and zuchhini and dried tomatoes\",\n\t\t\t\"text\": \"9.5 â‚¬\",\n\t\t\t\"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/f/fa/Fish_-lunch.jpg\",\n\t\t\t\"item_url\": \"https://example.com/daily-menu\",\n\t\t\t\"buttons\": [\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"url\",\n\t\t\t\t\t\"title\": \"Show Details\",\n\t\t\t\t\t\"payload\": \"https://example.com/daily-menu/food-1\"\n\t\t\t\t}\n\t\t\t]\n\t\t}\n\t}\n}"
 										},
 										"url": {
 											"raw": "{{server_url}}{{api_version}}/messages",
@@ -3067,7 +3068,7 @@
 										}
 									],
 									"cookie": [],
-									"body": "{\n    \"id\": \"151136316089523\",\n    \"channel\": {\n        \"id\": \"151445772969853\",\n        \"type\": \"facebook_messenger\"\n    },\n    \"contact\": {\n        \"id\": \"1096280500453211\"\n    },\n    \"content\": {\n        \"type\": \"structure\",\n        \"payload\": {\n            \"title\": \"Flight Ticket to Timișoara\",\n            \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/5/5f/Catedrala_din_Timisoara.jpg\"\n        }\n    }\n}"
+									"body": "{\n    \"id\": \"151136316089523\",\n    \"channel\": {\n        \"id\": \"151445772969853\",\n        \"type\": \"facebook_messenger\"\n    },\n    \"contact\": {\n        \"id\": \"1096280500453211\"\n    },\n    \"content\": {\n        \"type\": \"structure\",\n        \"payload\": {\n            \"title\": \"Flight Ticket to TimiÈ™oara\",\n            \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/5/5f/Catedrala_din_Timisoara.jpg\"\n        }\n    }\n}"
 								},
 								{
 									"name": "Structure - Title & Text",
@@ -3085,7 +3086,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\n\t\"channel\": {\n\t\t\"id\": \"{{fb.channel.id}}\"\n\t},\n\t\"contact\": {\n\t\t\"id\": \"{{fb.contact.id}}\"\n\t},\n\t\"content\": {\n\t\t\"type\": \"structure\",\n\t\t\"payload\": {\n\t\t\t\"title\": \"Leaf salad with smoked eggplant and zuchhini and dried tomatoes\",\n\t\t\t\"text\": \"9.5 €\",\n\t\t\t\"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/f/fa/Fish_-lunch.jpg\",\n\t\t\t\"item_url\": \"https://example.com/daily-menu\",\n\t\t\t\"buttons\": [\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"url\",\n\t\t\t\t\t\"title\": \"Show Details\",\n\t\t\t\t\t\"payload\": \"https://example.com/daily-menu/food-1\"\n\t\t\t\t}\n\t\t\t]\n\t\t}\n\t}\n}"
+											"raw": "{\n\t\"channel\": {\n\t\t\"id\": \"{{fb.channel.id}}\"\n\t},\n\t\"contact\": {\n\t\t\"id\": \"{{fb.contact.id}}\"\n\t},\n\t\"content\": {\n\t\t\"type\": \"structure\",\n\t\t\"payload\": {\n\t\t\t\"title\": \"Leaf salad with smoked eggplant and zuchhini and dried tomatoes\",\n\t\t\t\"text\": \"9.5 â‚¬\",\n\t\t\t\"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/f/fa/Fish_-lunch.jpg\",\n\t\t\t\"item_url\": \"https://example.com/daily-menu\",\n\t\t\t\"buttons\": [\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"url\",\n\t\t\t\t\t\"title\": \"Show Details\",\n\t\t\t\t\t\"payload\": \"https://example.com/daily-menu/food-1\"\n\t\t\t\t}\n\t\t\t]\n\t\t}\n\t}\n}"
 										},
 										"url": {
 											"raw": "{{server_url}}{{api_version}}/messages",
@@ -3194,7 +3195,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\n\t\"channel\": {\n\t\t\"id\": \"{{fb.channel.id}}\"\n\t},\n\t\"contact\": {\n\t\t\"id\": \"{{fb.contact.id}}\"\n\t},\n\t\"content\": {\n\t\t\"type\": \"structure\",\n\t\t\"payload\": {\n\t\t\t\"title\": \"Leaf salad with smoked eggplant and zuchhini and dried tomatoes\",\n\t\t\t\"text\": \"9.5 €\",\n\t\t\t\"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/f/fa/Fish_-lunch.jpg\",\n\t\t\t\"item_url\": \"https://example.com/daily-menu\",\n\t\t\t\"buttons\": [\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"url\",\n\t\t\t\t\t\"title\": \"Show Details\",\n\t\t\t\t\t\"payload\": \"https://example.com/daily-menu/food-1\"\n\t\t\t\t}\n\t\t\t]\n\t\t}\n\t}\n}"
+											"raw": "{\n\t\"channel\": {\n\t\t\"id\": \"{{fb.channel.id}}\"\n\t},\n\t\"contact\": {\n\t\t\"id\": \"{{fb.contact.id}}\"\n\t},\n\t\"content\": {\n\t\t\"type\": \"structure\",\n\t\t\"payload\": {\n\t\t\t\"title\": \"Leaf salad with smoked eggplant and zuchhini and dried tomatoes\",\n\t\t\t\"text\": \"9.5 â‚¬\",\n\t\t\t\"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/f/fa/Fish_-lunch.jpg\",\n\t\t\t\"item_url\": \"https://example.com/daily-menu\",\n\t\t\t\"buttons\": [\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"url\",\n\t\t\t\t\t\"title\": \"Show Details\",\n\t\t\t\t\t\"payload\": \"https://example.com/daily-menu/food-1\"\n\t\t\t\t}\n\t\t\t]\n\t\t}\n\t}\n}"
 										},
 										"url": {
 											"raw": "{{server_url}}{{api_version}}/messages",
@@ -3285,7 +3286,7 @@
 										}
 									],
 									"cookie": [],
-									"body": "{\n    \"id\": \"151136262214814\",\n    \"channel\": {\n        \"id\": \"151445772969853\",\n        \"type\": \"facebook_messenger\"\n    },\n    \"contact\": {\n        \"id\": \"1096280500453211\"\n    },\n    \"content\": {\n        \"type\": \"structure\",\n        \"payload\": {\n            \"title\": \"Leaf salad with smoked eggplant and zuchhini and dried tomatoes\",\n            \"text\": \"9.5 €\",\n            \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/f/fa/Fish_-lunch.jpg\",\n            \"item_url\": \"https://example.com/daily-menu\",\n            \"buttons\": [\n                {\n                    \"type\": \"url\",\n                    \"title\": \"Show Details\",\n                    \"payload\": \"https://example.com/daily-menu/food-1\"\n                }\n            ]\n        }\n    }\n}"
+									"body": "{\n    \"id\": \"151136262214814\",\n    \"channel\": {\n        \"id\": \"151445772969853\",\n        \"type\": \"facebook_messenger\"\n    },\n    \"contact\": {\n        \"id\": \"1096280500453211\"\n    },\n    \"content\": {\n        \"type\": \"structure\",\n        \"payload\": {\n            \"title\": \"Leaf salad with smoked eggplant and zuchhini and dried tomatoes\",\n            \"text\": \"9.5 â‚¬\",\n            \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/f/fa/Fish_-lunch.jpg\",\n            \"item_url\": \"https://example.com/daily-menu\",\n            \"buttons\": [\n                {\n                    \"type\": \"url\",\n                    \"title\": \"Show Details\",\n                    \"payload\": \"https://example.com/daily-menu/food-1\"\n                }\n            ]\n        }\n    }\n}"
 								}
 							]
 						},
@@ -3373,7 +3374,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"channel\": {\n        \"id\": \"{{fb.channel.id}}\"\n    },\n    \"contact\": {\n        \"id\": \"{{fb.contact.id}}\"\n    },\n    \"content\": {\n        \"type\": \"structure\",\n        \"payload\": [\n            {\n                \"title\": \"Leaf salad with smoked eggplant and zuchhini and dried tomatoes\",\n                \"text\": \"9.5 €\",\n                \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/f/fa/Fish_-lunch.jpg\",\n                \"item_url\": \"https://example.com/daily-menu\",\n                \"buttons\": [\n                    {\n                        \"type\": \"url\",\n                        \"title\": \"Show Details\",\n                        \"payload\": \"https://example.com/daily-menu/food-1\"\n                    }\n                ]\n            },\n            {\n                \"title\": \"Beef burger with Coleslaw salad\",\n                \"text\": \"12.0 €\",\n                \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/9/9b/YOKOSUKA-NAVY-BURGER-TSUNAMI.JPG\",\n                \"item_url\": \"https://example.com/daily-menu\",\n                \"buttons\": [\n                    {\n                        \"type\": \"url\",\n                        \"title\": \"Show Details\",\n                        \"payload\": \"https://example.com/daily-menu/food-2\"\n                    }\n                ]\n            }\n        ]\n    }\n}"
+									"raw": "{\n    \"channel\": {\n        \"id\": \"{{fb.channel.id}}\"\n    },\n    \"contact\": {\n        \"id\": \"{{fb.contact.id}}\"\n    },\n    \"content\": {\n        \"type\": \"structure\",\n        \"payload\": [\n            {\n                \"title\": \"Leaf salad with smoked eggplant and zuchhini and dried tomatoes\",\n                \"text\": \"9.5 â‚¬\",\n                \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/f/fa/Fish_-lunch.jpg\",\n                \"item_url\": \"https://example.com/daily-menu\",\n                \"buttons\": [\n                    {\n                        \"type\": \"url\",\n                        \"title\": \"Show Details\",\n                        \"payload\": \"https://example.com/daily-menu/food-1\"\n                    }\n                ]\n            },\n            {\n                \"title\": \"Beef burger with Coleslaw salad\",\n                \"text\": \"12.0 â‚¬\",\n                \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/9/9b/YOKOSUKA-NAVY-BURGER-TSUNAMI.JPG\",\n                \"item_url\": \"https://example.com/daily-menu\",\n                \"buttons\": [\n                    {\n                        \"type\": \"url\",\n                        \"title\": \"Show Details\",\n                        \"payload\": \"https://example.com/daily-menu/food-2\"\n                    }\n                ]\n            }\n        ]\n    }\n}"
 								},
 								"url": {
 									"raw": "{{server_url}}{{api_version}}/messages",
@@ -3403,7 +3404,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\n    \"channel\": {\n        \"id\": \"{{fb.channel.id}}\"\n    },\n    \"contact\": {\n        \"id\": \"{{fb.contact.id}}\"\n    },\n    \"content\": {\n        \"type\": \"structure\",\n        \"payload\": [\n            {\n                \"title\": \"Leaf salad with smoked eggplant and zuchhini and dried tomatoes\",\n                \"text\": \"9.5 €\",\n                \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/f/fa/Fish_-lunch.jpg\",\n                \"item_url\": \"https://example.com/daily-menu\",\n                \"buttons\": [\n                    {\n                        \"type\": \"url\",\n                        \"title\": \"Show Details\",\n                        \"payload\": \"https://example.com/daily-menu/food-1\"\n                    }\n                ]\n            },\n            {\n                \"title\": \"Beef burger with Coleslaw salad\",\n                \"text\": \"12.0 €\",\n                \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/9/9b/YOKOSUKA-NAVY-BURGER-TSUNAMI.JPG\",\n                \"item_url\": \"https://example.com/daily-menu\",\n                \"buttons\": [\n                    {\n                        \"type\": \"url\",\n                        \"title\": \"Show Details\",\n                        \"payload\": \"https://example.com/daily-menu/food-2\"\n                    }\n                ]\n            }\n        ]\n    }\n}"
+											"raw": "{\n    \"channel\": {\n        \"id\": \"{{fb.channel.id}}\"\n    },\n    \"contact\": {\n        \"id\": \"{{fb.contact.id}}\"\n    },\n    \"content\": {\n        \"type\": \"structure\",\n        \"payload\": [\n            {\n                \"title\": \"Leaf salad with smoked eggplant and zuchhini and dried tomatoes\",\n                \"text\": \"9.5 â‚¬\",\n                \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/f/fa/Fish_-lunch.jpg\",\n                \"item_url\": \"https://example.com/daily-menu\",\n                \"buttons\": [\n                    {\n                        \"type\": \"url\",\n                        \"title\": \"Show Details\",\n                        \"payload\": \"https://example.com/daily-menu/food-1\"\n                    }\n                ]\n            },\n            {\n                \"title\": \"Beef burger with Coleslaw salad\",\n                \"text\": \"12.0 â‚¬\",\n                \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/9/9b/YOKOSUKA-NAVY-BURGER-TSUNAMI.JPG\",\n                \"item_url\": \"https://example.com/daily-menu\",\n                \"buttons\": [\n                    {\n                        \"type\": \"url\",\n                        \"title\": \"Show Details\",\n                        \"payload\": \"https://example.com/daily-menu/food-2\"\n                    }\n                ]\n            }\n        ]\n    }\n}"
 										},
 										"url": {
 											"raw": "{{server_url}}{{api_version}}/messages",
@@ -3494,7 +3495,7 @@
 										}
 									],
 									"cookie": [],
-									"body": "{\n    \"id\": \"151325005166978\",\n    \"channel\": {\n        \"id\": \"151445772969853\",\n        \"type\": \"facebook_messenger\"\n    },\n    \"contact\": {\n        \"id\": \"1255524614484281\"\n    },\n    \"content\": {\n        \"type\": \"structure\",\n        \"payload\": [\n            {\n                \"title\": \"Leaf salad with smoked eggplant and zuchhini and dried tomatoes\",\n                \"text\": \"9.5 €\",\n                \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/f/fa/Fish_-lunch.jpg\",\n                \"item_url\": \"https://example.com/daily-menu\",\n                \"buttons\": [\n                    {\n                        \"type\": \"url\",\n                        \"title\": \"Show Details\",\n                        \"payload\": \"https://example.com/daily-menu/food-1\"\n                    }\n                ]\n            },\n            {\n                \"title\": \"Beef burger with Coleslaw salad\",\n                \"text\": \"12.0 €\",\n                \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/9/9b/YOKOSUKA-NAVY-BURGER-TSUNAMI.JPG\",\n                \"item_url\": \"https://example.com/daily-menu\",\n                \"buttons\": [\n                    {\n                        \"type\": \"url\",\n                        \"title\": \"Show Details\",\n                        \"payload\": \"https://example.com/daily-menu/food-2\"\n                    }\n                ]\n            }\n        ]\n    }\n}"
+									"body": "{\n    \"id\": \"151325005166978\",\n    \"channel\": {\n        \"id\": \"151445772969853\",\n        \"type\": \"facebook_messenger\"\n    },\n    \"contact\": {\n        \"id\": \"1255524614484281\"\n    },\n    \"content\": {\n        \"type\": \"structure\",\n        \"payload\": [\n            {\n                \"title\": \"Leaf salad with smoked eggplant and zuchhini and dried tomatoes\",\n                \"text\": \"9.5 â‚¬\",\n                \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/f/fa/Fish_-lunch.jpg\",\n                \"item_url\": \"https://example.com/daily-menu\",\n                \"buttons\": [\n                    {\n                        \"type\": \"url\",\n                        \"title\": \"Show Details\",\n                        \"payload\": \"https://example.com/daily-menu/food-1\"\n                    }\n                ]\n            },\n            {\n                \"title\": \"Beef burger with Coleslaw salad\",\n                \"text\": \"12.0 â‚¬\",\n                \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/9/9b/YOKOSUKA-NAVY-BURGER-TSUNAMI.JPG\",\n                \"item_url\": \"https://example.com/daily-menu\",\n                \"buttons\": [\n                    {\n                        \"type\": \"url\",\n                        \"title\": \"Show Details\",\n                        \"payload\": \"https://example.com/daily-menu/food-2\"\n                    }\n                ]\n            }\n        ]\n    }\n}"
 								}
 							]
 						},
@@ -3582,7 +3583,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n  \"channel\": {\n    \"id\": \"{{fb.channel.id}}\"\n  },\n  \"contact\": {\n    \"id\": \"{{fb.contact.id}}\"\n  },\n  \"content\": {\n    \"type\": \"structure\",\n    \"payload\": {\n      \"text\": \"9.5 €\",\n      \"buttons\": [\n        {\n          \"type\": \"url\",\n          \"title\": \"Show Details\",\n          \"payload\": \"https://example.com/daily-menu/food-1\"\n        },\n        {\n          \"type\": \"postback\",\n          \"title\": \"List Items\",\n          \"payload\": \"{{PASS_THROUGH_PARAM}}\"\n        },\n        {\n          \"type\": \"phone\",\n          \"title\": \"Call Us\",\n          \"payload\": \"+420777111222\"\n        }\n      ]\n    }\n  }\n}"
+									"raw": "{\n  \"channel\": {\n    \"id\": \"{{fb.channel.id}}\"\n  },\n  \"contact\": {\n    \"id\": \"{{fb.contact.id}}\"\n  },\n  \"content\": {\n    \"type\": \"structure\",\n    \"payload\": {\n      \"text\": \"9.5 â‚¬\",\n      \"buttons\": [\n        {\n          \"type\": \"url\",\n          \"title\": \"Show Details\",\n          \"payload\": \"https://example.com/daily-menu/food-1\"\n        },\n        {\n          \"type\": \"postback\",\n          \"title\": \"List Items\",\n          \"payload\": \"{{PASS_THROUGH_PARAM}}\"\n        },\n        {\n          \"type\": \"phone\",\n          \"title\": \"Call Us\",\n          \"payload\": \"+420777111222\"\n        }\n      ]\n    }\n  }\n}"
 								},
 								"url": {
 									"raw": "{{server_url}}{{api_version}}/messages",
@@ -3612,7 +3613,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\n\t\"channel\": {\n\t\t\"id\": \"{{fb.channel.id}}\"\n\t},\n\t\"contact\": {\n\t\t\"id\": \"{{fb.contact.id}}\"\n\t},\n\t\"content\": {\n\t\t\"type\": \"structure\",\n\t\t\"payload\": {\n\t\t\t\"text\": \"9.5 €\",\n\t\t\t\"buttons\": [\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"url\",\n\t\t\t\t\t\"title\": \"Show Details\",\n\t\t\t\t\t\"payload\": \"https://example.com/daily-menu/food-1\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"postback\",\n\t\t\t\t\t\"title\": \"List Items\",\n\t\t\t\t\t\"payload\": \"{{PASS_THROUGH_PARAM}}\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"phone\",\n\t\t\t\t\t\"title\": \"Call Us\",\n\t\t\t\t\t\"payload\": \"+420777111222\"\n\t\t\t\t}\n\t\t\t]\n\t\t}\n\t}\n}"
+											"raw": "{\n\t\"channel\": {\n\t\t\"id\": \"{{fb.channel.id}}\"\n\t},\n\t\"contact\": {\n\t\t\"id\": \"{{fb.contact.id}}\"\n\t},\n\t\"content\": {\n\t\t\"type\": \"structure\",\n\t\t\"payload\": {\n\t\t\t\"text\": \"9.5 â‚¬\",\n\t\t\t\"buttons\": [\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"url\",\n\t\t\t\t\t\"title\": \"Show Details\",\n\t\t\t\t\t\"payload\": \"https://example.com/daily-menu/food-1\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"postback\",\n\t\t\t\t\t\"title\": \"List Items\",\n\t\t\t\t\t\"payload\": \"{{PASS_THROUGH_PARAM}}\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"phone\",\n\t\t\t\t\t\"title\": \"Call Us\",\n\t\t\t\t\t\"payload\": \"+420777111222\"\n\t\t\t\t}\n\t\t\t]\n\t\t}\n\t}\n}"
 										},
 										"url": {
 											"raw": "{{server_url}}{{api_version}}/messages",
@@ -3703,7 +3704,7 @@
 										}
 									],
 									"cookie": [],
-									"body": "{\n    \"id\": \"151143391846629\",\n    \"channel\": {\n        \"id\": \"151445772969853\",\n        \"type\": \"facebook_messenger\"\n    },\n    \"contact\": {\n        \"id\": \"1096280500453211\"\n    },\n    \"content\": {\n        \"type\": \"structure\",\n        \"payload\": {\n            \"text\": \"9.5 €\",\n            \"buttons\": [\n                {\n                    \"type\": \"url\",\n                    \"title\": \"Show Details\",\n                    \"payload\": \"https://example.com/daily-menu/food-1\"\n                },\n                {\n                    \"type\": \"postback\",\n                    \"title\": \"List Items\",\n                    \"payload\": \"{{PASS_THROUGH_PARAM}}\"\n                },\n                {\n                    \"type\": \"phone\",\n                    \"title\": \"Call Us\",\n                    \"payload\": \"+420777111222\"\n                }\n            ]\n        }\n    }\n}"
+									"body": "{\n    \"id\": \"151143391846629\",\n    \"channel\": {\n        \"id\": \"151445772969853\",\n        \"type\": \"facebook_messenger\"\n    },\n    \"contact\": {\n        \"id\": \"1096280500453211\"\n    },\n    \"content\": {\n        \"type\": \"structure\",\n        \"payload\": {\n            \"text\": \"9.5 â‚¬\",\n            \"buttons\": [\n                {\n                    \"type\": \"url\",\n                    \"title\": \"Show Details\",\n                    \"payload\": \"https://example.com/daily-menu/food-1\"\n                },\n                {\n                    \"type\": \"postback\",\n                    \"title\": \"List Items\",\n                    \"payload\": \"{{PASS_THROUGH_PARAM}}\"\n                },\n                {\n                    \"type\": \"phone\",\n                    \"title\": \"Call Us\",\n                    \"payload\": \"+420777111222\"\n                }\n            ]\n        }\n    }\n}"
 								}
 							]
 						},
@@ -4565,6 +4566,7 @@
 						}
 					],
 					"description": "Messages resource is the main entry point for sending messages. See [Documentation](https://docs.amio.io/reference#facebook-messenger-messages).",
+					"protocolProfileBehavior": {},
 					"_postman_isSubFolder": true
 				},
 				{
@@ -5256,6 +5258,7 @@
 							}
 						}
 					],
+					"protocolProfileBehavior": {},
 					"_postman_isSubFolder": true
 				},
 				{
@@ -6405,7 +6408,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n  \"channel\": {\n    \"id\": \"{{viber_bot.channel.id}}\"\n  },\n  \"contact\": {\n    \"id\": \"{{viber_bot.contact.id}}\"\n  },\n  \"content\": {\n    \"type\": \"structure\",\n    \"payload\": {\n      \"title\": \"Leaf salad with smoked egg\",\n      \"text\": \"9.5 €\",\n      \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/f/fa/Fish_-lunch.jpg\",\n      \"item_url\": \"https://example.com/daily-menu\",\n      \"buttons\": [\n        {\n          \"type\": \"url\",\n          \"title\": \"Show Details\",\n          \"payload\": \"https://example.com/daily-menu/food-1\"\n        },\n        {\n          \"type\": \"url\",\n          \"title\": \"Show Details\",\n          \"payload\": \"https://example.com/daily-menu/food-1\"\n        }\n      ]\n    }\n  }\n}"
+									"raw": "{\n  \"channel\": {\n    \"id\": \"{{viber_bot.channel.id}}\"\n  },\n  \"contact\": {\n    \"id\": \"{{viber_bot.contact.id}}\"\n  },\n  \"content\": {\n    \"type\": \"structure\",\n    \"payload\": {\n      \"title\": \"Leaf salad with smoked egg\",\n      \"text\": \"9.5 â‚¬\",\n      \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/f/fa/Fish_-lunch.jpg\",\n      \"item_url\": \"https://example.com/daily-menu\",\n      \"buttons\": [\n        {\n          \"type\": \"url\",\n          \"title\": \"Show Details\",\n          \"payload\": \"https://example.com/daily-menu/food-1\"\n        },\n        {\n          \"type\": \"url\",\n          \"title\": \"Show Details\",\n          \"payload\": \"https://example.com/daily-menu/food-1\"\n        }\n      ]\n    }\n  }\n}"
 								},
 								"url": {
 									"raw": "{{server_url}}{{api_version}}/messages",
@@ -6435,7 +6438,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\n\t\"channel\": {\n\t\t\"id\": \"{{viber.channel.id}}\"\n\t},\n\t\"contact\": {\n\t\t\"id\": \"{{viber.contact.id}}\"\n\t},\n\t\"content\": {\n\t\t\"type\": \"structure\",\n\t\t\"payload\": {\n\t\t\t\"title\": \"Leaf salad with smoked egg\",\n\t\t\t\"text\": \"9.5 €\",\n\t\t\t\"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/f/fa/Fish_-lunch.jpg\",\n\t\t\t\"item_url\": \"https://example.com/daily-menu\",\n\t\t\t\"buttons\": [\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"url\",\n\t\t\t\t\t\"title\": \"Show Details\",\n\t\t\t\t\t\"payload\": \"https://example.com/daily-menu/food-1\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"url\",\n\t\t\t\t\t\"title\": \"Show Details\",\n\t\t\t\t\t\"payload\": \"https://example.com/daily-menu/food-1\"\n\t\t\t\t}\n\t\t\t]\n\t\t}\n\t}\n}"
+											"raw": "{\n\t\"channel\": {\n\t\t\"id\": \"{{viber.channel.id}}\"\n\t},\n\t\"contact\": {\n\t\t\"id\": \"{{viber.contact.id}}\"\n\t},\n\t\"content\": {\n\t\t\"type\": \"structure\",\n\t\t\"payload\": {\n\t\t\t\"title\": \"Leaf salad with smoked egg\",\n\t\t\t\"text\": \"9.5 â‚¬\",\n\t\t\t\"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/f/fa/Fish_-lunch.jpg\",\n\t\t\t\"item_url\": \"https://example.com/daily-menu\",\n\t\t\t\"buttons\": [\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"url\",\n\t\t\t\t\t\"title\": \"Show Details\",\n\t\t\t\t\t\"payload\": \"https://example.com/daily-menu/food-1\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"url\",\n\t\t\t\t\t\"title\": \"Show Details\",\n\t\t\t\t\t\"payload\": \"https://example.com/daily-menu/food-1\"\n\t\t\t\t}\n\t\t\t]\n\t\t}\n\t}\n}"
 										},
 										"url": {
 											"raw": "{{server_url}}{{api_version}}/messages",
@@ -6554,7 +6557,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\n\t\"channel\": {\n\t\t\"id\": \"{{viber.channel.id}}\"\n\t},\n\t\"contact\": {\n\t\t\"id\": \"{{viber.contact.id}}\"\n\t},\n\t\"content\": {\n\t\t\"type\": \"structure\",\n\t\t\"payload\": {\n\t\t\t\"title\": \"Leaf salad with smoked egg\",\n\t\t\t\"text\": \"9.5 €\",\n\t\t\t\"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/f/fa/Fish_-lunch.jpg\",\n\t\t\t\"item_url\": \"https://example.com/daily-menu\",\n\t\t\t\"buttons\": [\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"url\",\n\t\t\t\t\t\"title\": \"Show Details\",\n\t\t\t\t\t\"payload\": \"https://example.com/daily-menu/food-1\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"url\",\n\t\t\t\t\t\"title\": \"Show Details\",\n\t\t\t\t\t\"payload\": \"https://example.com/daily-menu/food-1\"\n\t\t\t\t}\n\t\t\t]\n\t\t}\n\t}\n}"
+											"raw": "{\n\t\"channel\": {\n\t\t\"id\": \"{{viber.channel.id}}\"\n\t},\n\t\"contact\": {\n\t\t\"id\": \"{{viber.contact.id}}\"\n\t},\n\t\"content\": {\n\t\t\"type\": \"structure\",\n\t\t\"payload\": {\n\t\t\t\"title\": \"Leaf salad with smoked egg\",\n\t\t\t\"text\": \"9.5 â‚¬\",\n\t\t\t\"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/f/fa/Fish_-lunch.jpg\",\n\t\t\t\"item_url\": \"https://example.com/daily-menu\",\n\t\t\t\"buttons\": [\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"url\",\n\t\t\t\t\t\"title\": \"Show Details\",\n\t\t\t\t\t\"payload\": \"https://example.com/daily-menu/food-1\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"url\",\n\t\t\t\t\t\"title\": \"Show Details\",\n\t\t\t\t\t\"payload\": \"https://example.com/daily-menu/food-1\"\n\t\t\t\t}\n\t\t\t]\n\t\t}\n\t}\n}"
 										},
 										"url": {
 											"raw": "{{server_url}}{{api_version}}/messages",
@@ -6655,7 +6658,7 @@
 											"key": "JSESSIONID"
 										}
 									],
-									"body": "{\n    \"id\": \"151587195671192\",\n    \"channel\": {\n        \"id\": \"151515343979291\",\n        \"type\": \"viber\"\n    },\n    \"contact\": {\n        \"id\": \"15219196820732912\"\n    },\n    \"content\": {\n        \"type\": \"structure\",\n        \"payload\": {\n            \"buttons\": [\n                {\n                    \"payload\": \"https://example.com/daily-menu/food-1\",\n                    \"type\": \"url\",\n                    \"title\": \"Show Details\"\n                },\n                {\n                    \"payload\": \"https://example.com/daily-menu/food-1\",\n                    \"type\": \"url\",\n                    \"title\": \"Show Details\"\n                }\n            ],\n            \"text\": \"9.5 €\"\n        }\n    }\n}"
+									"body": "{\n    \"id\": \"151587195671192\",\n    \"channel\": {\n        \"id\": \"151515343979291\",\n        \"type\": \"viber\"\n    },\n    \"contact\": {\n        \"id\": \"15219196820732912\"\n    },\n    \"content\": {\n        \"type\": \"structure\",\n        \"payload\": {\n            \"buttons\": [\n                {\n                    \"payload\": \"https://example.com/daily-menu/food-1\",\n                    \"type\": \"url\",\n                    \"title\": \"Show Details\"\n                },\n                {\n                    \"payload\": \"https://example.com/daily-menu/food-1\",\n                    \"type\": \"url\",\n                    \"title\": \"Show Details\"\n                }\n            ],\n            \"text\": \"9.5 â‚¬\"\n        }\n    }\n}"
 								},
 								{
 									"name": "Structure",
@@ -6673,7 +6676,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\n\t\"channel\": {\n\t\t\"id\": \"{{viber.channel.id}}\"\n\t},\n\t\"contact\": {\n\t\t\"id\": \"{{viber.contact.id}}\"\n\t},\n\t\"content\": {\n\t\t\"type\": \"structure\",\n\t\t\"payload\": {\n\t\t\t\"title\": \"Leaf salad with smoked egg\",\n\t\t\t\"text\": \"9.5 €\",\n\t\t\t\"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/f/fa/Fish_-lunch.jpg\",\n\t\t\t\"item_url\": \"https://example.com/daily-menu\",\n\t\t\t\"buttons\": [\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"url\",\n\t\t\t\t\t\"title\": \"Show Details\",\n\t\t\t\t\t\"payload\": \"https://example.com/daily-menu/food-1\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"url\",\n\t\t\t\t\t\"title\": \"Show Details\",\n\t\t\t\t\t\"payload\": \"https://example.com/daily-menu/food-1\"\n\t\t\t\t}\n\t\t\t]\n\t\t}\n\t}\n}"
+											"raw": "{\n\t\"channel\": {\n\t\t\"id\": \"{{viber.channel.id}}\"\n\t},\n\t\"contact\": {\n\t\t\"id\": \"{{viber.contact.id}}\"\n\t},\n\t\"content\": {\n\t\t\"type\": \"structure\",\n\t\t\"payload\": {\n\t\t\t\"title\": \"Leaf salad with smoked egg\",\n\t\t\t\"text\": \"9.5 â‚¬\",\n\t\t\t\"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/f/fa/Fish_-lunch.jpg\",\n\t\t\t\"item_url\": \"https://example.com/daily-menu\",\n\t\t\t\"buttons\": [\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"url\",\n\t\t\t\t\t\"title\": \"Show Details\",\n\t\t\t\t\t\"payload\": \"https://example.com/daily-menu/food-1\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"url\",\n\t\t\t\t\t\"title\": \"Show Details\",\n\t\t\t\t\t\"payload\": \"https://example.com/daily-menu/food-1\"\n\t\t\t\t}\n\t\t\t]\n\t\t}\n\t}\n}"
 										},
 										"url": {
 											"raw": "{{server_url}}{{api_version}}/messages",
@@ -6774,7 +6777,7 @@
 											"key": "JSESSIONID"
 										}
 									],
-									"body": "{\n    \"id\": \"151587167597869\",\n    \"channel\": {\n        \"id\": \"151515343979291\",\n        \"type\": \"viber\"\n    },\n    \"contact\": {\n        \"id\": \"15219196820732912\"\n    },\n    \"content\": {\n        \"type\": \"structure\",\n        \"payload\": {\n            \"buttons\": [\n                {\n                    \"payload\": \"https://example.com/daily-menu/food-1\",\n                    \"type\": \"url\",\n                    \"title\": \"Show Details\"\n                },\n                {\n                    \"payload\": \"https://example.com/daily-menu/food-1\",\n                    \"type\": \"url\",\n                    \"title\": \"Show Details\"\n                }\n            ],\n            \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/f/fa/Fish_-lunch.jpg\",\n            \"item_url\": \"https://example.com/daily-menu\",\n            \"text\": \"9.5 €\",\n            \"title\": \"Leaf salad with smoked egg\"\n        }\n    }\n}"
+									"body": "{\n    \"id\": \"151587167597869\",\n    \"channel\": {\n        \"id\": \"151515343979291\",\n        \"type\": \"viber\"\n    },\n    \"contact\": {\n        \"id\": \"15219196820732912\"\n    },\n    \"content\": {\n        \"type\": \"structure\",\n        \"payload\": {\n            \"buttons\": [\n                {\n                    \"payload\": \"https://example.com/daily-menu/food-1\",\n                    \"type\": \"url\",\n                    \"title\": \"Show Details\"\n                },\n                {\n                    \"payload\": \"https://example.com/daily-menu/food-1\",\n                    \"type\": \"url\",\n                    \"title\": \"Show Details\"\n                }\n            ],\n            \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/f/fa/Fish_-lunch.jpg\",\n            \"item_url\": \"https://example.com/daily-menu\",\n            \"text\": \"9.5 â‚¬\",\n            \"title\": \"Leaf salad with smoked egg\"\n        }\n    }\n}"
 								},
 								{
 									"name": "Structure - Title & Text",
@@ -6792,7 +6795,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\n\t\"channel\": {\n\t\t\"id\": \"{{viber.channel.id}}\"\n\t},\n\t\"contact\": {\n\t\t\"id\": \"{{viber.contact.id}}\"\n\t},\n\t\"content\": {\n\t\t\"type\": \"structure\",\n\t\t\"payload\": {\n\t\t\t\"title\": \"Leaf salad with smoked egg\",\n\t\t\t\"text\": \"9.5 €\",\n\t\t\t\"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/f/fa/Fish_-lunch.jpg\",\n\t\t\t\"item_url\": \"https://example.com/daily-menu\",\n\t\t\t\"buttons\": [\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"url\",\n\t\t\t\t\t\"title\": \"Show Details\",\n\t\t\t\t\t\"payload\": \"https://example.com/daily-menu/food-1\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"url\",\n\t\t\t\t\t\"title\": \"Show Details\",\n\t\t\t\t\t\"payload\": \"https://example.com/daily-menu/food-1\"\n\t\t\t\t}\n\t\t\t]\n\t\t}\n\t}\n}"
+											"raw": "{\n\t\"channel\": {\n\t\t\"id\": \"{{viber.channel.id}}\"\n\t},\n\t\"contact\": {\n\t\t\"id\": \"{{viber.contact.id}}\"\n\t},\n\t\"content\": {\n\t\t\"type\": \"structure\",\n\t\t\"payload\": {\n\t\t\t\"title\": \"Leaf salad with smoked egg\",\n\t\t\t\"text\": \"9.5 â‚¬\",\n\t\t\t\"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/f/fa/Fish_-lunch.jpg\",\n\t\t\t\"item_url\": \"https://example.com/daily-menu\",\n\t\t\t\"buttons\": [\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"url\",\n\t\t\t\t\t\"title\": \"Show Details\",\n\t\t\t\t\t\"payload\": \"https://example.com/daily-menu/food-1\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"url\",\n\t\t\t\t\t\"title\": \"Show Details\",\n\t\t\t\t\t\"payload\": \"https://example.com/daily-menu/food-1\"\n\t\t\t\t}\n\t\t\t]\n\t\t}\n\t}\n}"
 										},
 										"url": {
 											"raw": "{{server_url}}{{api_version}}/messages",
@@ -6893,7 +6896,7 @@
 											"key": "JSESSIONID"
 										}
 									],
-									"body": "{\n    \"id\": \"151587187698817\",\n    \"channel\": {\n        \"id\": \"151515343979291\",\n        \"type\": \"viber\"\n    },\n    \"contact\": {\n        \"id\": \"15219196820732912\"\n    },\n    \"content\": {\n        \"type\": \"structure\",\n        \"payload\": {\n            \"text\": \"9.5 €\",\n            \"title\": \"Leaf salad with smoked egg\"\n        }\n    }\n}"
+									"body": "{\n    \"id\": \"151587187698817\",\n    \"channel\": {\n        \"id\": \"151515343979291\",\n        \"type\": \"viber\"\n    },\n    \"contact\": {\n        \"id\": \"15219196820732912\"\n    },\n    \"content\": {\n        \"type\": \"structure\",\n        \"payload\": {\n            \"text\": \"9.5 â‚¬\",\n            \"title\": \"Leaf salad with smoked egg\"\n        }\n    }\n}"
 								}
 							]
 						},
@@ -6981,7 +6984,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"channel\": {\n        \"id\": \"{{viber_bot.channel.id}}\"\n    },\n    \"contact\": {\n        \"id\": \"{{viber_bot.contact.id}}\"\n    },\n    \"content\": {\n        \"type\": \"structure\",\n        \"payload\": [\n            {\n                \"title\": \"Leaf salad\",\n                \"text\": \"9.5 €\",\n                \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/f/fa/Fish_-lunch.jpg\",\n                \"item_url\": \"https://example.com/daily-menu\",\n                \"buttons\": [\n                    {\n                        \"type\": \"url\",\n                        \"title\": \"Show Details\",\n                        \"payload\": \"https://example.com/daily-menu/food-1\"\n                    }\n                ]\n            },\n            {\n                \"title\": \"Beef burger\",\n                \"text\": \"12.0 €\",\n                \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/9/9b/YOKOSUKA-NAVY-BURGER-TSUNAMI.JPG\",\n                \"item_url\": \"https://example.com/daily-menu\",\n                \"buttons\": [\n                    {\n                        \"type\": \"url\",\n                        \"title\": \"Show Details\",\n                        \"payload\": \"https://example.com/daily-menu/food-2\"\n                    }\n                ]\n            }\n        ]\n    }\n}"
+									"raw": "{\n    \"channel\": {\n        \"id\": \"{{viber_bot.channel.id}}\"\n    },\n    \"contact\": {\n        \"id\": \"{{viber_bot.contact.id}}\"\n    },\n    \"content\": {\n        \"type\": \"structure\",\n        \"payload\": [\n            {\n                \"title\": \"Leaf salad\",\n                \"text\": \"9.5 â‚¬\",\n                \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/f/fa/Fish_-lunch.jpg\",\n                \"item_url\": \"https://example.com/daily-menu\",\n                \"buttons\": [\n                    {\n                        \"type\": \"url\",\n                        \"title\": \"Show Details\",\n                        \"payload\": \"https://example.com/daily-menu/food-1\"\n                    }\n                ]\n            },\n            {\n                \"title\": \"Beef burger\",\n                \"text\": \"12.0 â‚¬\",\n                \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/9/9b/YOKOSUKA-NAVY-BURGER-TSUNAMI.JPG\",\n                \"item_url\": \"https://example.com/daily-menu\",\n                \"buttons\": [\n                    {\n                        \"type\": \"url\",\n                        \"title\": \"Show Details\",\n                        \"payload\": \"https://example.com/daily-menu/food-2\"\n                    }\n                ]\n            }\n        ]\n    }\n}"
 								},
 								"url": {
 									"raw": "{{server_url}}{{api_version}}/messages",
@@ -7011,7 +7014,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\n    \"channel\": {\n        \"id\": \"{{viber.channel.id}}\"\n    },\n    \"contact\": {\n        \"id\": \"{{viber.contact.id}}\"\n    },\n    \"content\": {\n        \"type\": \"structure\",\n        \"payload\": [\n            {\n                \"title\": \"Leaf salad\",\n                \"text\": \"9.5 €\",\n                \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/f/fa/Fish_-lunch.jpg\",\n                \"item_url\": \"https://example.com/daily-menu\",\n                \"buttons\": [\n                    {\n                        \"type\": \"url\",\n                        \"title\": \"Show Details\",\n                        \"payload\": \"https://example.com/daily-menu/food-1\"\n                    }\n                ]\n            },\n            {\n                \"title\": \"Beef burger\",\n                \"text\": \"12.0 €\",\n                \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/9/9b/YOKOSUKA-NAVY-BURGER-TSUNAMI.JPG\",\n                \"item_url\": \"https://example.com/daily-menu\",\n                \"buttons\": [\n                    {\n                        \"type\": \"url\",\n                        \"title\": \"Show Details\",\n                        \"payload\": \"https://example.com/daily-menu/food-2\"\n                    }\n                ]\n            }\n        ]\n    }\n}"
+											"raw": "{\n    \"channel\": {\n        \"id\": \"{{viber.channel.id}}\"\n    },\n    \"contact\": {\n        \"id\": \"{{viber.contact.id}}\"\n    },\n    \"content\": {\n        \"type\": \"structure\",\n        \"payload\": [\n            {\n                \"title\": \"Leaf salad\",\n                \"text\": \"9.5 â‚¬\",\n                \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/f/fa/Fish_-lunch.jpg\",\n                \"item_url\": \"https://example.com/daily-menu\",\n                \"buttons\": [\n                    {\n                        \"type\": \"url\",\n                        \"title\": \"Show Details\",\n                        \"payload\": \"https://example.com/daily-menu/food-1\"\n                    }\n                ]\n            },\n            {\n                \"title\": \"Beef burger\",\n                \"text\": \"12.0 â‚¬\",\n                \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/9/9b/YOKOSUKA-NAVY-BURGER-TSUNAMI.JPG\",\n                \"item_url\": \"https://example.com/daily-menu\",\n                \"buttons\": [\n                    {\n                        \"type\": \"url\",\n                        \"title\": \"Show Details\",\n                        \"payload\": \"https://example.com/daily-menu/food-2\"\n                    }\n                ]\n            }\n        ]\n    }\n}"
 										},
 										"url": {
 											"raw": "{{server_url}}{{api_version}}/messages",
@@ -7112,7 +7115,7 @@
 											"key": "JSESSIONID"
 										}
 									],
-									"body": "{\"id\":\"151577577618240\",\"channel\":{\"id\":\"151515343979291\",\"type\":\"viber\"},\"contact\":{\"id\":\"oP5LFnRU2aGUbs1AiSYBPQ==\"},\"content\":{\"type\":\"structure\",\"payload\":[{\"buttons\":[{\"payload\":\"https://example.com/daily-menu/food-1\",\"type\":\"url\",\"title\":\"Show Details\"}],\"image_url\":\"https://upload.wikimedia.org/wikipedia/commons/f/fa/Fish_-lunch.jpg\",\"item_url\":\"https://example.com/daily-menu\",\"text\":\"9.5 €\",\"title\":\"Leaf salad\"},{\"buttons\":[{\"payload\":\"https://example.com/daily-menu/food-2\",\"type\":\"url\",\"title\":\"Show Details\"}],\"image_url\":\"https://upload.wikimedia.org/wikipedia/commons/9/9b/YOKOSUKA-NAVY-BURGER-TSUNAMI.JPG\",\"item_url\":\"https://example.com/daily-menu\",\"text\":\"12.0 €\",\"title\":\"Beef burger\"}]}}"
+									"body": "{\"id\":\"151577577618240\",\"channel\":{\"id\":\"151515343979291\",\"type\":\"viber\"},\"contact\":{\"id\":\"oP5LFnRU2aGUbs1AiSYBPQ==\"},\"content\":{\"type\":\"structure\",\"payload\":[{\"buttons\":[{\"payload\":\"https://example.com/daily-menu/food-1\",\"type\":\"url\",\"title\":\"Show Details\"}],\"image_url\":\"https://upload.wikimedia.org/wikipedia/commons/f/fa/Fish_-lunch.jpg\",\"item_url\":\"https://example.com/daily-menu\",\"text\":\"9.5 â‚¬\",\"title\":\"Leaf salad\"},{\"buttons\":[{\"payload\":\"https://example.com/daily-menu/food-2\",\"type\":\"url\",\"title\":\"Show Details\"}],\"image_url\":\"https://upload.wikimedia.org/wikipedia/commons/9/9b/YOKOSUKA-NAVY-BURGER-TSUNAMI.JPG\",\"item_url\":\"https://example.com/daily-menu\",\"text\":\"12.0 â‚¬\",\"title\":\"Beef burger\"}]}}"
 								}
 							]
 						},
@@ -7200,7 +7203,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n  \"channel\": {\n    \"id\": \"{{viber_bot.channel.id}}\"\n  },\n  \"contact\": {\n    \"id\": \"{{viber_bot.contact.id}}\"\n  },\n  \"content\": {\n    \"type\": \"structure\",\n    \"payload\": {\n      \"text\": \"9.5 €\",\n      \"buttons\": [\n        {\n          \"type\": \"url\",\n          \"title\": \"Show Details\",\n          \"payload\": \"https://example.com/daily-menu/food-1\"\n        },\n        {\n          \"type\": \"postback\",\n          \"title\": \"List Items\",\n          \"payload\": \"{{PASS_THROUGH_PARAM}}\"\n        }\n      ]\n    }\n  }\n}"
+									"raw": "{\n  \"channel\": {\n    \"id\": \"{{viber_bot.channel.id}}\"\n  },\n  \"contact\": {\n    \"id\": \"{{viber_bot.contact.id}}\"\n  },\n  \"content\": {\n    \"type\": \"structure\",\n    \"payload\": {\n      \"text\": \"9.5 â‚¬\",\n      \"buttons\": [\n        {\n          \"type\": \"url\",\n          \"title\": \"Show Details\",\n          \"payload\": \"https://example.com/daily-menu/food-1\"\n        },\n        {\n          \"type\": \"postback\",\n          \"title\": \"List Items\",\n          \"payload\": \"{{PASS_THROUGH_PARAM}}\"\n        }\n      ]\n    }\n  }\n}"
 								},
 								"url": {
 									"raw": "{{server_url}}{{api_version}}/messages",
@@ -7230,7 +7233,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\n\t\"channel\": {\n\t\t\"id\": \"{{viber.channel.id}}\"\n\t},\n\t\"contact\": {\n\t\t\"id\": \"{{viber.contact.id}}\"\n\t},\n\t\"content\": {\n\t\t\"type\": \"structure\",\n\t\t\"payload\": {\n\t\t\t\"text\": \"9.5 €\",\n\t\t\t\"buttons\": [\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"url\",\n\t\t\t\t\t\"title\": \"Show Details\",\n\t\t\t\t\t\"payload\": \"https://example.com/daily-menu/food-1\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"postback\",\n\t\t\t\t\t\"title\": \"List Items\",\n\t\t\t\t\t\"payload\": \"{{PASS_THROUGH_PARAM}}\"\n\t\t\t\t}\n\t\t\t]\n\t\t}\n\t}\n}"
+											"raw": "{\n\t\"channel\": {\n\t\t\"id\": \"{{viber.channel.id}}\"\n\t},\n\t\"contact\": {\n\t\t\"id\": \"{{viber.contact.id}}\"\n\t},\n\t\"content\": {\n\t\t\"type\": \"structure\",\n\t\t\"payload\": {\n\t\t\t\"text\": \"9.5 â‚¬\",\n\t\t\t\"buttons\": [\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"url\",\n\t\t\t\t\t\"title\": \"Show Details\",\n\t\t\t\t\t\"payload\": \"https://example.com/daily-menu/food-1\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"postback\",\n\t\t\t\t\t\"title\": \"List Items\",\n\t\t\t\t\t\"payload\": \"{{PASS_THROUGH_PARAM}}\"\n\t\t\t\t}\n\t\t\t]\n\t\t}\n\t}\n}"
 										},
 										"url": {
 											"raw": "{{server_url}}{{api_version}}/messages",
@@ -7331,7 +7334,7 @@
 											"key": "JSESSIONID"
 										}
 									],
-									"body": "{\n    \"id\": \"151587022710597\",\n    \"channel\": {\n        \"id\": \"151515343979291\",\n        \"type\": \"viber\"\n    },\n    \"contact\": {\n        \"id\": \"15219196820732912\"\n    },\n    \"content\": {\n        \"type\": \"structure\",\n        \"payload\": {\n            \"buttons\": [\n                {\n                    \"payload\": \"https://example.com/daily-menu/food-1\",\n                    \"type\": \"url\",\n                    \"title\": \"Show Details\"\n                },\n                {\n                    \"payload\": \"{{PASS_THROUGH_PARAM}}\",\n                    \"type\": \"postback\",\n                    \"title\": \"List Items\"\n                }\n            ],\n            \"text\": \"9.5 €\"\n        }\n    }\n}"
+									"body": "{\n    \"id\": \"151587022710597\",\n    \"channel\": {\n        \"id\": \"151515343979291\",\n        \"type\": \"viber\"\n    },\n    \"contact\": {\n        \"id\": \"15219196820732912\"\n    },\n    \"content\": {\n        \"type\": \"structure\",\n        \"payload\": {\n            \"buttons\": [\n                {\n                    \"payload\": \"https://example.com/daily-menu/food-1\",\n                    \"type\": \"url\",\n                    \"title\": \"Show Details\"\n                },\n                {\n                    \"payload\": \"{{PASS_THROUGH_PARAM}}\",\n                    \"type\": \"postback\",\n                    \"title\": \"List Items\"\n                }\n            ],\n            \"text\": \"9.5 â‚¬\"\n        }\n    }\n}"
 								}
 							]
 						},
@@ -7546,6 +7549,7 @@
 						}
 					],
 					"description": "Messages resource is the main entry point for sending messages. See [Documentation](https://docs.amio.io/reference#viber-messages).",
+					"protocolProfileBehavior": {},
 					"_postman_isSubFolder": true
 				},
 				{
@@ -8265,7 +8269,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n  \"channel\": {\n    \"id\": \"{{viber.channel.id}}\"\n  },\n  \"contact\": {\n    \"phone_number\": \"{{viber.contact.phone_number}}\"\n  },\n  \"content\": {\n    \"type\": \"structure\",\n    \"payload\": {\n      \"title\": \"Leaf salad with smoked egg\",\n      \"text\": \"9.5 €\",\n      \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/f/fa/Fish_-lunch.jpg\",\n      \"item_url\": \"https://example.com/daily-menu\",\n      \"buttons\": [\n        {\n          \"type\": \"url\",\n          \"title\": \"Show Details\",\n          \"payload\": \"https://example.com/daily-menu/food-1\"\n        }\n      ]\n    }\n  }\n}"
+									"raw": "{\n  \"channel\": {\n    \"id\": \"{{viber.channel.id}}\"\n  },\n  \"contact\": {\n    \"phone_number\": \"{{viber.contact.phone_number}}\"\n  },\n  \"content\": {\n    \"type\": \"structure\",\n    \"payload\": {\n      \"title\": \"Leaf salad with smoked egg\",\n      \"text\": \"9.5 â‚¬\",\n      \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/f/fa/Fish_-lunch.jpg\",\n      \"item_url\": \"https://example.com/daily-menu\",\n      \"buttons\": [\n        {\n          \"type\": \"url\",\n          \"title\": \"Show Details\",\n          \"payload\": \"https://example.com/daily-menu/food-1\"\n        }\n      ]\n    }\n  }\n}"
 								},
 								"url": {
 									"raw": "{{server_url}}{{api_version}}/messages",
@@ -8295,7 +8299,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\n  \"channel\": {\n    \"id\": \"{{viber.channel.id}}\"\n  },\n  \"contact\": {\n    \"phone_number\": \"{{viber.contact.phone_number}}\"\n  },\n  \"content\": {\n    \"type\": \"structure\",\n    \"payload\": {\n      \"title\": \"Leaf salad with smoked egg\",\n      \"text\": \"9.5 €\",\n      \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/f/fa/Fish_-lunch.jpg\",\n      \"item_url\": \"https://example.com/daily-menu\",\n      \"buttons\": [\n        {\n          \"type\": \"url\",\n          \"title\": \"Show Details\",\n          \"payload\": \"https://example.com/daily-menu/food-1\"\n        }\n      ]\n    }\n  }\n}"
+											"raw": "{\n  \"channel\": {\n    \"id\": \"{{viber.channel.id}}\"\n  },\n  \"contact\": {\n    \"phone_number\": \"{{viber.contact.phone_number}}\"\n  },\n  \"content\": {\n    \"type\": \"structure\",\n    \"payload\": {\n      \"title\": \"Leaf salad with smoked egg\",\n      \"text\": \"9.5 â‚¬\",\n      \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/f/fa/Fish_-lunch.jpg\",\n      \"item_url\": \"https://example.com/daily-menu\",\n      \"buttons\": [\n        {\n          \"type\": \"url\",\n          \"title\": \"Show Details\",\n          \"payload\": \"https://example.com/daily-menu/food-1\"\n        }\n      ]\n    }\n  }\n}"
 										},
 										"url": {
 											"raw": "{{server_url}}{{api_version}}/messages",
@@ -8385,7 +8389,7 @@
 										}
 									],
 									"cookie": [],
-									"body": "{\n    \"id\": \"15342383523578916\",\n    \"channel\": {\n        \"id\": \"151870424671553\",\n        \"type\": \"viber_business_messages\"\n    },\n    \"contact\": {\n        \"id\": \"15342382674218164\",\n        \"phone_number\": \"15558576309\"\n    },\n    \"content\": {\n        \"type\": \"structure\",\n        \"payload\": {\n            \"buttons\": [\n                {\n                    \"payload\": \"https://example.com/daily-menu/food-1\",\n                    \"type\": \"url\",\n                    \"title\": \"Show Details\"\n                }\n            ],\n            \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/f/fa/Fish_-lunch.jpg\",\n            \"item_url\": \"https://example.com/daily-menu\",\n            \"text\": \"9.5 €\",\n            \"title\": \"Leaf salad with smoked egg\"\n        }\n    }\n}"
+									"body": "{\n    \"id\": \"15342383523578916\",\n    \"channel\": {\n        \"id\": \"151870424671553\",\n        \"type\": \"viber_business_messages\"\n    },\n    \"contact\": {\n        \"id\": \"15342382674218164\",\n        \"phone_number\": \"15558576309\"\n    },\n    \"content\": {\n        \"type\": \"structure\",\n        \"payload\": {\n            \"buttons\": [\n                {\n                    \"payload\": \"https://example.com/daily-menu/food-1\",\n                    \"type\": \"url\",\n                    \"title\": \"Show Details\"\n                }\n            ],\n            \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/f/fa/Fish_-lunch.jpg\",\n            \"item_url\": \"https://example.com/daily-menu\",\n            \"text\": \"9.5 â‚¬\",\n            \"title\": \"Leaf salad with smoked egg\"\n        }\n    }\n}"
 								}
 							]
 						},
@@ -8598,6 +8602,7 @@
 							]
 						}
 					],
+					"protocolProfileBehavior": {},
 					"_postman_isSubFolder": true
 				},
 				{
@@ -9026,6 +9031,7 @@
 							]
 						}
 					],
+					"protocolProfileBehavior": {},
 					"_postman_isSubFolder": true
 				},
 				{
@@ -9430,10 +9436,575 @@
 							]
 						}
 					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "WhatsApp",
+					"item": [
+						{
+							"name": "List Messages",
+							"request": {
+								"auth": {
+									"type": "oauth2",
+									"oauth2": [
+										{
+											"key": "accessToken",
+											"value": "{{access_token}}",
+											"type": "string"
+										},
+										{
+											"key": "addTokenTo",
+											"value": "header",
+											"type": "string"
+										},
+										{
+											"key": "callBackUrl",
+											"type": "any"
+										},
+										{
+											"key": "authUrl",
+											"type": "any"
+										},
+										{
+											"key": "accessTokenUrl",
+											"type": "any"
+										},
+										{
+											"key": "clientId",
+											"type": "any"
+										},
+										{
+											"key": "clientSecret",
+											"type": "any"
+										},
+										{
+											"key": "clientAuth",
+											"type": "any"
+										},
+										{
+											"key": "grantType",
+											"type": "any"
+										},
+										{
+											"key": "scope",
+											"type": "any"
+										},
+										{
+											"key": "username",
+											"type": "any"
+										},
+										{
+											"key": "password",
+											"type": "any"
+										},
+										{
+											"key": "tokenType",
+											"value": "",
+											"type": "string"
+										},
+										{
+											"key": "redirectUri",
+											"type": "any"
+										},
+										{
+											"key": "refreshToken",
+											"type": "any"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "",
+										"value": ""
+									}
+								],
+								"url": {
+									"raw": "{{server_url}}{{api_version}}/channels/{{whatsapp.channel.id}}/contacts/{{whatsapp.contact.id}}/messages",
+									"host": [
+										"{{server_url}}{{api_version}}"
+									],
+									"path": [
+										"channels",
+										"{{whatsapp.channel.id}}",
+										"contacts",
+										"{{whatsapp.contact.id}}",
+										"messages"
+									]
+								},
+								"description": "List messages of given Facebook Messenger channel and contact. See [documentation](https://docs.amio.io/reference#facebook-messenger-messages-list-messages)."
+							},
+							"response": [
+								{
+									"name": "List Messages",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											},
+											{
+												"key": "",
+												"value": ""
+											}
+										],
+										"url": {
+											"raw": "{{server_url}}{{api_version}}/channels/{{amio_chat.channel.id}}/contacts/{{amio_chat.contact.id}}/messages",
+											"host": [
+												"{{server_url}}{{api_version}}"
+											],
+											"path": [
+												"channels",
+												"{{amio_chat.channel.id}}",
+												"contacts",
+												"{{amio_chat.contact.id}}",
+												"messages"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Thu, 28 Mar 2019 10:21:59 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json;charset=UTF-8"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Server",
+											"value": "nginx/1.12.1"
+										},
+										{
+											"key": "X-Application-Context",
+											"value": "application:production:8080"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "1000"
+										},
+										{
+											"key": "X-RateLimit-Reset",
+											"value": "1553769650"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "981"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache"
+										},
+										{
+											"key": "Expires",
+											"value": "0"
+										},
+										{
+											"key": "X-Total-Count",
+											"value": "2"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "gzip"
+										}
+									],
+									"cookie": [],
+									"body": "[\n    {\n        \"id\": \"6516975431861424692\",\n        \"sent\": \"2019-03-28T10:13:42.537Z\",\n        \"delivered\": \"2019-03-28T10:13:43Z\",\n        \"read\": null,\n        \"direction\": \"received\",\n        \"channel\": {\n            \"id\": \"6516692048501556798\",\n            \"type\": \"amio_chat\"\n        },\n        \"contact\": {\n            \"id\": \"6516975200579113522\"\n        },\n        \"content\": {\n            \"payload\": \"asd\",\n            \"type\": \"text\"\n        }\n    }\n]"
+								}
+							]
+						},
+						{
+							"name": "Text",
+							"request": {
+								"auth": {
+									"type": "oauth2",
+									"oauth2": [
+										{
+											"key": "accessToken",
+											"value": "{{access_token}}",
+											"type": "string"
+										},
+										{
+											"key": "addTokenTo",
+											"value": "header",
+											"type": "string"
+										},
+										{
+											"key": "callBackUrl",
+											"type": "any"
+										},
+										{
+											"key": "authUrl",
+											"type": "any"
+										},
+										{
+											"key": "accessTokenUrl",
+											"type": "any"
+										},
+										{
+											"key": "clientId",
+											"type": "any"
+										},
+										{
+											"key": "clientSecret",
+											"type": "any"
+										},
+										{
+											"key": "clientAuth",
+											"type": "any"
+										},
+										{
+											"key": "grantType",
+											"type": "any"
+										},
+										{
+											"key": "scope",
+											"type": "any"
+										},
+										{
+											"key": "username",
+											"type": "any"
+										},
+										{
+											"key": "password",
+											"type": "any"
+										},
+										{
+											"key": "tokenType",
+											"value": "",
+											"type": "string"
+										},
+										{
+											"key": "redirectUri",
+											"type": "any"
+										},
+										{
+											"key": "refreshToken",
+											"type": "any"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "",
+										"value": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"channel\": {\n    \"id\": \"{{whatsapp.channel.id}}\"\n  },\n  \"contact\": {\n    \"id\": \"{{whatsapp.contact.id}}\"\n  },\n  \"content\": {\n    \"type\": \"text\",\n    \"payload\": \"Hello world!\"\n  }\n}"
+								},
+								"url": {
+									"raw": "{{server_url}}{{api_version}}/messages",
+									"host": [
+										"{{server_url}}{{api_version}}"
+									],
+									"path": [
+										"messages"
+									]
+								},
+								"description": "Send text message. See [documentation](https://docs.amio.io/v1.0/reference#facebook-messenger-messages-text)."
+							},
+							"response": [
+								{
+									"name": "Text",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											},
+											{
+												"key": "",
+												"value": ""
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"channel\": {\n    \"id\": \"{{amio_chat.channel.id}}\"\n  },\n  \"contact\": {\n    \"id\": \"{{amio_chat.contact.id}}\"\n  },\n  \"content\": {\n    \"type\": \"text\",\n    \"payload\": \"Hello world!\"\n  }\n}"
+										},
+										"url": {
+											"raw": "{{server_url}}{{api_version}}/messages",
+											"host": [
+												"{{server_url}}{{api_version}}"
+											],
+											"path": [
+												"messages"
+											]
+										}
+									},
+									"status": "Created",
+									"code": 201,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Thu, 28 Mar 2019 10:23:07 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json;charset=UTF-8"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Server",
+											"value": "nginx/1.12.1"
+										},
+										{
+											"key": "X-Application-Context",
+											"value": "application:production:8080"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "1000"
+										},
+										{
+											"key": "X-RateLimit-Reset",
+											"value": "1553769649"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "980"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache"
+										},
+										{
+											"key": "Expires",
+											"value": "0"
+										},
+										{
+											"key": "Location",
+											"value": "https://api.amio.io/v1/messages/6516977801299251765"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"id\": \"6516977801299251765\",\n    \"channel\": {\n        \"id\": \"6516692048501556798\",\n        \"type\": \"amio_chat\"\n    },\n    \"contact\": {\n        \"id\": \"6516975200579113522\"\n    },\n    \"content\": {\n        \"type\": \"text\",\n        \"payload\": \"Hello world!\"\n    }\n}"
+								}
+							]
+						},
+						{
+							"name": "Image",
+							"request": {
+								"auth": {
+									"type": "oauth2",
+									"oauth2": [
+										{
+											"key": "accessToken",
+											"value": "{{access_token}}",
+											"type": "string"
+										},
+										{
+											"key": "addTokenTo",
+											"value": "header",
+											"type": "string"
+										},
+										{
+											"key": "callBackUrl",
+											"type": "any"
+										},
+										{
+											"key": "authUrl",
+											"type": "any"
+										},
+										{
+											"key": "accessTokenUrl",
+											"type": "any"
+										},
+										{
+											"key": "clientId",
+											"type": "any"
+										},
+										{
+											"key": "clientSecret",
+											"type": "any"
+										},
+										{
+											"key": "clientAuth",
+											"type": "any"
+										},
+										{
+											"key": "grantType",
+											"type": "any"
+										},
+										{
+											"key": "scope",
+											"type": "any"
+										},
+										{
+											"key": "username",
+											"type": "any"
+										},
+										{
+											"key": "password",
+											"type": "any"
+										},
+										{
+											"key": "tokenType",
+											"value": "",
+											"type": "string"
+										},
+										{
+											"key": "redirectUri",
+											"type": "any"
+										},
+										{
+											"key": "refreshToken",
+											"type": "any"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "",
+										"value": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"channel\": {\n    \"id\": \"{{whatsapp.channel.id}}\"\n  },\n  \"contact\": {\n    \"id\": \"{{whatsapp.contact.id}}\"\n  },\n  \"content\": {\n    \"type\": \"image\",\n    \"payload\": {\n      \"url\": \"https://upload.wikimedia.org/wikipedia/commons/1/11/V%C3%A1clav_Havel_cut_out.jpg\"\n    }\n  }\n}"
+								},
+								"url": {
+									"raw": "{{server_url}}{{api_version}}/messages",
+									"host": [
+										"{{server_url}}{{api_version}}"
+									],
+									"path": [
+										"messages"
+									]
+								},
+								"description": "Send image message. See [documentation](https://docs.amio.io/v1.0/reference#facebook-messenger-messages-image)."
+							},
+							"response": [
+								{
+									"name": "Image",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											},
+											{
+												"key": "",
+												"value": ""
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"channel\": {\n    \"id\": \"{{amio_chat.channel.id}}\"\n  },\n  \"contact\": {\n    \"id\": \"{{amio_chat.contact.id}}\"\n  },\n  \"content\": {\n    \"type\": \"image\",\n    \"payload\": {\n      \"url\": \"https://upload.wikimedia.org/wikipedia/commons/1/11/V%C3%A1clav_Havel_cut_out.jpg\"\n    }\n  }\n}"
+										},
+										"url": {
+											"raw": "{{server_url}}{{api_version}}/messages",
+											"host": [
+												"{{server_url}}{{api_version}}"
+											],
+											"path": [
+												"messages"
+											]
+										}
+									},
+									"status": "Created",
+									"code": 201,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Thu, 28 Mar 2019 10:24:57 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json;charset=UTF-8"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Server",
+											"value": "nginx/1.12.1"
+										},
+										{
+											"key": "X-Application-Context",
+											"value": "application:production:8080"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "1000"
+										},
+										{
+											"key": "X-RateLimit-Reset",
+											"value": "1553769649"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "979"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache"
+										},
+										{
+											"key": "Expires",
+											"value": "0"
+										},
+										{
+											"key": "Location",
+											"value": "https://api.amio.io/v1/messages/6516978263989703222"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"id\": \"6516978263989703222\",\n    \"channel\": {\n        \"id\": \"6516692048501556798\",\n        \"type\": \"amio_chat\"\n    },\n    \"contact\": {\n        \"id\": \"6516975200579113522\"\n    },\n    \"content\": {\n        \"type\": \"image\",\n        \"payload\": {\n            \"url\": \"https://upload.wikimedia.org/wikipedia/commons/1/11/V%C3%A1clav_Havel_cut_out.jpg\"\n        }\n    }\n}"
+								}
+							]
+						}
+					],
+					"protocolProfileBehavior": {},
 					"_postman_isSubFolder": true
 				}
 			],
-			"description": "Messages resource is the main entry point for sending messages. See [Documentation](https://docs.amio.io/reference#messages)."
+			"description": "Messages resource is the main entry point for sending messages. See [Documentation](https://docs.amio.io/reference#messages).",
+			"protocolProfileBehavior": {}
 		},
 		{
 			"name": "Notifications",
@@ -10178,6 +10749,7 @@
 							]
 						}
 					],
+					"protocolProfileBehavior": {},
 					"_postman_isSubFolder": true
 				},
 				{
@@ -10809,6 +11381,7 @@
 						}
 					],
 					"description": "Notifications resource is used for sending various events like messages read or typing to the contact. See [Documentation](https://docs.amio.io/reference#notifications).",
+					"protocolProfileBehavior": {},
 					"_postman_isSubFolder": true
 				}
 			],
@@ -10834,7 +11407,8 @@
 						]
 					}
 				}
-			]
+			],
+			"protocolProfileBehavior": {}
 		},
 		{
 			"name": "Channels",
@@ -11769,6 +12343,7 @@
 							]
 						}
 					],
+					"protocolProfileBehavior": {},
 					"_postman_isSubFolder": true
 				},
 				{
@@ -12795,6 +13370,7 @@
 						}
 					],
 					"description": "Channel represents a medium through which you can send and receive messages. See [Documentation](https://docs.amio.io/v1.0/reference#facebook-messenger-channels).",
+					"protocolProfileBehavior": {},
 					"_postman_isSubFolder": true
 				},
 				{
@@ -13893,6 +14469,7 @@
 							}
 						}
 					],
+					"protocolProfileBehavior": {},
 					"_postman_isSubFolder": true
 				},
 				{
@@ -14911,6 +15488,7 @@
 						}
 					],
 					"description": "Channel represents a medium through which you can send and receive messages. See [Documentation](https://docs.amio.io/v1.0/reference#viber-channels).",
+					"protocolProfileBehavior": {},
 					"_postman_isSubFolder": true
 				},
 				{
@@ -15927,6 +16505,7 @@
 							]
 						}
 					],
+					"protocolProfileBehavior": {},
 					"_postman_isSubFolder": true
 				},
 				{
@@ -16965,6 +17544,7 @@
 							}
 						}
 					],
+					"protocolProfileBehavior": {},
 					"_postman_isSubFolder": true
 				},
 				{
@@ -17982,10 +18562,12 @@
 							]
 						}
 					],
+					"protocolProfileBehavior": {},
 					"_postman_isSubFolder": true
 				}
 			],
-			"description": "Channel represents a medium through which you can send and receive message. See [Documentation](https://docs.amio.io/v1.0/reference#channels)."
+			"description": "Channel represents a medium through which you can send and receive message. See [Documentation](https://docs.amio.io/v1.0/reference#channels).",
+			"protocolProfileBehavior": {}
 		},
 		{
 			"name": "Contacts",
@@ -18530,6 +19112,7 @@
 							]
 						}
 					],
+					"protocolProfileBehavior": {},
 					"_postman_isSubFolder": true
 				},
 				{
@@ -18802,7 +19385,7 @@
 										}
 									],
 									"cookie": [],
-									"body": "[\n    {\n        \"id\": \"1096280500453211\",\n        \"name\": \"Matouš Kučera\",\n        \"gender\": \"male\",\n        \"locale\": \"en_US\",\n        \"time_zone\": \"+01:00\",\n        \"photo_url\": \"https://scontent.xx.fbcdn.net/v/t1.0-1/12548863_1686095324971409_1335029826839245237_n.jpg?oh=3608db40885a437b84c909c4d9646fe3&oe=5A9D524B\"\n    },\n    {\n        \"id\": \"1128998867161920\",\n        \"name\": \"Honza Donátek\",\n        \"gender\": \"male\",\n        \"locale\": \"en_US\",\n        \"time_zone\": \"+02:00\",\n        \"photo_url\": \"https://scontent.xx.fbcdn.net/v/t1.0-1/541992_511761562179706_48931455_n.jpg?oh=1157a5aa485fd1f2f51984fb9261c125&oe=5A01EEB3\"\n    }\n]"
+									"body": "[\n    {\n        \"id\": \"1096280500453211\",\n        \"name\": \"MatouÅ¡ KuÄera\",\n        \"gender\": \"male\",\n        \"locale\": \"en_US\",\n        \"time_zone\": \"+01:00\",\n        \"photo_url\": \"https://scontent.xx.fbcdn.net/v/t1.0-1/12548863_1686095324971409_1335029826839245237_n.jpg?oh=3608db40885a437b84c909c4d9646fe3&oe=5A9D524B\"\n    },\n    {\n        \"id\": \"1128998867161920\",\n        \"name\": \"Honza DonÃ¡tek\",\n        \"gender\": \"male\",\n        \"locale\": \"en_US\",\n        \"time_zone\": \"+02:00\",\n        \"photo_url\": \"https://scontent.xx.fbcdn.net/v/t1.0-1/541992_511761562179706_48931455_n.jpg?oh=1157a5aa485fd1f2f51984fb9261c125&oe=5A01EEB3\"\n    }\n]"
 								}
 							]
 						},
@@ -19008,7 +19591,7 @@
 										}
 									],
 									"cookie": [],
-									"body": "{\"id\":\"1096280500453211\",\"name\":\"Matouš Kučera\",\"gender\":\"male\",\"locale\":\"en_US\",\"time_zone\":\"+01:00\",\"photo_url\":\"https://scontent.xx.fbcdn.net/v/t1.0-1/12548863_1686095324971409_1335029826839245237_n.jpg?oh=3608db40885a437b84c909c4d9646fe3&oe=5A9D524B\"}"
+									"body": "{\"id\":\"1096280500453211\",\"name\":\"MatouÅ¡ KuÄera\",\"gender\":\"male\",\"locale\":\"en_US\",\"time_zone\":\"+01:00\",\"photo_url\":\"https://scontent.xx.fbcdn.net/v/t1.0-1/12548863_1686095324971409_1335029826839245237_n.jpg?oh=3608db40885a437b84c909c4d9646fe3&oe=5A9D524B\"}"
 								}
 							]
 						},
@@ -19210,6 +19793,7 @@
 						}
 					],
 					"description": "Contact represents the Facebook Messenger user. See [Documentation](https://docs.amio.io/reference#facebook-messenger-contacts).",
+					"protocolProfileBehavior": {},
 					"_postman_isSubFolder": true
 				},
 				{
@@ -19881,6 +20465,7 @@
 							}
 						}
 					],
+					"protocolProfileBehavior": {},
 					"_postman_isSubFolder": true
 				},
 				{
@@ -20390,6 +20975,7 @@
 						}
 					],
 					"description": "Contact represents the Viber user. See [Documentation](https://docs.amio.io/reference#viber-contacts).",
+					"protocolProfileBehavior": {},
 					"_postman_isSubFolder": true
 				},
 				{
@@ -20914,6 +21500,7 @@
 							"response": []
 						}
 					],
+					"protocolProfileBehavior": {},
 					"_postman_isSubFolder": true
 				},
 				{
@@ -21456,10 +22043,12 @@
 							]
 						}
 					],
+					"protocolProfileBehavior": {},
 					"_postman_isSubFolder": true
 				}
 			],
-			"description": "Contact represents the end user on given channel. See [Documentation](https://docs.amio.io/reference#contacts)."
+			"description": "Contact represents the end user on given channel. See [Documentation](https://docs.amio.io/reference#contacts).",
+			"protocolProfileBehavior": {}
 		},
 		{
 			"name": "Settings",
@@ -21820,6 +22409,7 @@
 							]
 						}
 					],
+					"protocolProfileBehavior": {},
 					"_postman_isSubFolder": true
 				},
 				{
@@ -22209,6 +22799,7 @@
 							}
 						}
 					],
+					"protocolProfileBehavior": {},
 					"_postman_isSubFolder": true
 				}
 			],
@@ -22234,7 +22825,9 @@
 						]
 					}
 				}
-			]
+			],
+			"protocolProfileBehavior": {}
 		}
-	]
+	],
+	"protocolProfileBehavior": {}
 }

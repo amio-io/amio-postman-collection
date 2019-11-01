@@ -6,7 +6,7 @@ https://blog.amio.io/setup-postman-for-amio-api/
 
 ## Requirements
 
-The Amio API Postman Collection and Environment requires the installation of [Postman](https://www.getpostman.com/).
+- Install [Postman](https://www.getpostman.com/).
 
 ## Installing
 
@@ -14,4 +14,3 @@ The Amio API Postman Collection and Environment requires the installation of [Po
 2) Open Postman, click on Import and select the two json files.
 3) Once imported, a new API collection will be created, along with the environment.
 
-See [blog](https://blog.amio.io/setup-postman-for-amio-api/) for details.
