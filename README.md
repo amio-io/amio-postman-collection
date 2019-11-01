@@ -10,9 +10,8 @@ https://blog.amio.io/setup-postman-for-amio-api/
 
 ## Installing
 
-See [blog](https://blog.amio.io/setup-postman-for-amio-api/) for details. Here is a simplified version:
-
-1) Download [collection.json](https://github.com/amio-io/amio-postman-collection/blob/master/collection.json) and [environment.json](https://github.com/amio-io/amio-postman-collection/blob/master/environment.json) onto your local machine.
-2) Open Postman, click on **Import** and select the two json files.
+1) Download [collection.json](https://raw.githubusercontent.com/amio-io/amio-postman-collection/master/collection.json) and [environment.json](https://raw.githubusercontent.com/amio-io/amio-postman-collection/master/environment.json) onto your local machine
+2) Open Postman, click on Import and select the two json files.
 3) Once imported, a new API collection will be created, along with the environment.
 
+See [blog](https://blog.amio.io/setup-postman-for-amio-api/) for details.
