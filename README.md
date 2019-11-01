@@ -14,3 +14,4 @@ https://blog.amio.io/setup-postman-for-amio-api/
 2) Open Postman, click on Import and select the two json files.
 3) Once imported, a new API collection will be created, along with the environment.
 
+See [blog](https://blog.amio.io/setup-postman-for-amio-api/) for details.
