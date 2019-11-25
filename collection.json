@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "c6d82245-37b0-47b0-9f7b-d93c450931c0",
+		"_postman_id": "bb8998d9-0e26-4a86-ace9-65d5f6982d7f",
 		"name": "Amio Messaging API",
 		"description": "Amio Messaging API is a service you can use for implementing various messengers into your software. It provides endpoints for sending messages, creating channels, etc.\n\nThe full API reference documentation can be found at [https://docs.amio.io](https://docs.amio.io/v1.0/reference).",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
@@ -1983,6 +1983,115 @@
 							},
 							"response": [
 								{
+									"name": "Structure - Text & Buttons",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											},
+											{
+												"key": "",
+												"value": ""
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n\t\"channel\": {\n\t\t\"id\": \"{{fb.channel.id}}\"\n\t},\n\t\"contact\": {\n\t\t\"id\": \"{{fb.contact.id}}\"\n\t},\n\t\"content\": {\n\t\t\"type\": \"structure\",\n\t\t\"payload\": {\n\t\t\t\"title\": \"Leaf salad with smoked eggplant and zuchhini and dried tomatoes\",\n\t\t\t\"text\": \"9.5 â‚¬\",\n\t\t\t\"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/f/fa/Fish_-lunch.jpg\",\n\t\t\t\"item_url\": \"https://example.com/daily-menu\",\n\t\t\t\"buttons\": [\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"url\",\n\t\t\t\t\t\"title\": \"Show Details\",\n\t\t\t\t\t\"payload\": \"https://example.com/daily-menu/food-1\"\n\t\t\t\t}\n\t\t\t]\n\t\t}\n\t}\n}"
+										},
+										"url": {
+											"raw": "{{server_url}}{{api_version}}/messages",
+											"host": [
+												"{{server_url}}{{api_version}}"
+											],
+											"path": [
+												"messages"
+											]
+										}
+									},
+									"status": "Created",
+									"code": 201,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Cache-Control",
+											"value": "no-cache",
+											"name": "Cache-Control",
+											"description": ""
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive",
+											"name": "Connection",
+											"description": ""
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json;charset=UTF-8",
+											"name": "Content-Type",
+											"description": ""
+										},
+										{
+											"key": "Date",
+											"value": "Wed, 22 Nov 2017 15:07:45 GMT",
+											"name": "Date",
+											"description": ""
+										},
+										{
+											"key": "Expires",
+											"value": "0",
+											"name": "Expires",
+											"description": ""
+										},
+										{
+											"key": "Server",
+											"value": "nginx/1.13.6",
+											"name": "Server",
+											"description": ""
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked",
+											"name": "Transfer-Encoding",
+											"description": ""
+										},
+										{
+											"key": "X-Application-Context",
+											"value": "application:production:8080",
+											"name": "X-Application-Context",
+											"description": ""
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "4000",
+											"name": "X-RateLimit-Limit",
+											"description": ""
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "3983",
+											"name": "X-RateLimit-Remaining",
+											"description": ""
+										},
+										{
+											"key": "X-RateLimit-Reset",
+											"value": "1511365670",
+											"name": "X-RateLimit-Reset",
+											"description": ""
+										},
+										{
+											"key": "Location",
+											"value": "https://api.amio.io/v1/messages/151136326533289",
+											"name": "Location",
+											"description": "",
+											"type": "text"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"id\": \"151136326533289\",\n    \"channel\": {\n        \"id\": \"151445772969853\",\n        \"type\": \"facebook_messenger\"\n    },\n    \"contact\": {\n        \"id\": \"1096280500453211\"\n    },\n    \"content\": {\n        \"type\": \"structure\",\n        \"payload\": {\n            \"text\": \"Vote your president!\",\n            \"buttons\": [\n                {\n                    \"type\": \"url\",\n                    \"title\": \"Donald Trump\",\n                    \"payload\": \"https://cs.wikipedia.org/wiki/Donald_Trump\"\n                }\n            ]\n        }\n    }\n}"
+								},
+								{
 									"name": "Structure - Title & Text",
 									"originalRequest": {
 										"method": "POST",
@@ -2308,115 +2417,6 @@
 									],
 									"cookie": [],
 									"body": "{\n    \"id\": \"151136262214814\",\n    \"channel\": {\n        \"id\": \"151445772969853\",\n        \"type\": \"facebook_messenger\"\n    },\n    \"contact\": {\n        \"id\": \"1096280500453211\"\n    },\n    \"content\": {\n        \"type\": \"structure\",\n        \"payload\": {\n            \"title\": \"Leaf salad with smoked eggplant and zuchhini and dried tomatoes\",\n            \"text\": \"9.5 â‚¬\",\n            \"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/f/fa/Fish_-lunch.jpg\",\n            \"item_url\": \"https://example.com/daily-menu\",\n            \"buttons\": [\n                {\n                    \"type\": \"url\",\n                    \"title\": \"Show Details\",\n                    \"payload\": \"https://example.com/daily-menu/food-1\"\n                }\n            ]\n        }\n    }\n}"
-								},
-								{
-									"name": "Structure - Text & Buttons",
-									"originalRequest": {
-										"method": "POST",
-										"header": [
-											{
-												"key": "Content-Type",
-												"value": "application/json"
-											},
-											{
-												"key": "",
-												"value": ""
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "{\n\t\"channel\": {\n\t\t\"id\": \"{{fb.channel.id}}\"\n\t},\n\t\"contact\": {\n\t\t\"id\": \"{{fb.contact.id}}\"\n\t},\n\t\"content\": {\n\t\t\"type\": \"structure\",\n\t\t\"payload\": {\n\t\t\t\"title\": \"Leaf salad with smoked eggplant and zuchhini and dried tomatoes\",\n\t\t\t\"text\": \"9.5 â‚¬\",\n\t\t\t\"image_url\": \"https://upload.wikimedia.org/wikipedia/commons/f/fa/Fish_-lunch.jpg\",\n\t\t\t\"item_url\": \"https://example.com/daily-menu\",\n\t\t\t\"buttons\": [\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"url\",\n\t\t\t\t\t\"title\": \"Show Details\",\n\t\t\t\t\t\"payload\": \"https://example.com/daily-menu/food-1\"\n\t\t\t\t}\n\t\t\t]\n\t\t}\n\t}\n}"
-										},
-										"url": {
-											"raw": "{{server_url}}{{api_version}}/messages",
-											"host": [
-												"{{server_url}}{{api_version}}"
-											],
-											"path": [
-												"messages"
-											]
-										}
-									},
-									"status": "Created",
-									"code": 201,
-									"_postman_previewlanguage": "json",
-									"header": [
-										{
-											"key": "Cache-Control",
-											"value": "no-cache",
-											"name": "Cache-Control",
-											"description": ""
-										},
-										{
-											"key": "Connection",
-											"value": "keep-alive",
-											"name": "Connection",
-											"description": ""
-										},
-										{
-											"key": "Content-Type",
-											"value": "application/json;charset=UTF-8",
-											"name": "Content-Type",
-											"description": ""
-										},
-										{
-											"key": "Date",
-											"value": "Wed, 22 Nov 2017 15:07:45 GMT",
-											"name": "Date",
-											"description": ""
-										},
-										{
-											"key": "Expires",
-											"value": "0",
-											"name": "Expires",
-											"description": ""
-										},
-										{
-											"key": "Server",
-											"value": "nginx/1.13.6",
-											"name": "Server",
-											"description": ""
-										},
-										{
-											"key": "Transfer-Encoding",
-											"value": "chunked",
-											"name": "Transfer-Encoding",
-											"description": ""
-										},
-										{
-											"key": "X-Application-Context",
-											"value": "application:production:8080",
-											"name": "X-Application-Context",
-											"description": ""
-										},
-										{
-											"key": "X-RateLimit-Limit",
-											"value": "4000",
-											"name": "X-RateLimit-Limit",
-											"description": ""
-										},
-										{
-											"key": "X-RateLimit-Remaining",
-											"value": "3983",
-											"name": "X-RateLimit-Remaining",
-											"description": ""
-										},
-										{
-											"key": "X-RateLimit-Reset",
-											"value": "1511365670",
-											"name": "X-RateLimit-Reset",
-											"description": ""
-										},
-										{
-											"key": "Location",
-											"value": "https://api.amio.io/v1/messages/151136326533289",
-											"name": "Location",
-											"description": "",
-											"type": "text"
-										}
-									],
-									"cookie": [],
-									"body": "{\n    \"id\": \"151136326533289\",\n    \"channel\": {\n        \"id\": \"151445772969853\",\n        \"type\": \"facebook_messenger\"\n    },\n    \"contact\": {\n        \"id\": \"1096280500453211\"\n    },\n    \"content\": {\n        \"type\": \"structure\",\n        \"payload\": {\n            \"text\": \"Vote your president!\",\n            \"buttons\": [\n                {\n                    \"type\": \"url\",\n                    \"title\": \"Donald Trump\",\n                    \"payload\": \"https://cs.wikipedia.org/wiki/Donald_Trump\"\n                }\n            ]\n        }\n    }\n}"
 								}
 							]
 						},
@@ -13942,163 +13942,6 @@
 					],
 					"protocolProfileBehavior": {},
 					"_postman_isSubFolder": true
-				},
-				{
-					"name": "WhatsApp",
-					"item": [
-						{
-							"name": "Create Channel",
-							"request": {
-								"auth": {
-									"type": "bearer",
-									"bearer": [
-										{
-											"key": "token",
-											"value": "{{access_token}}",
-											"type": "string"
-										}
-									]
-								},
-								"method": "POST",
-								"header": [
-									{
-										"key": "Content-Type",
-										"value": "application/json"
-									},
-									{
-										"key": "",
-										"value": ""
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{\n    \"type\": \"whatsapp\",\n    \"name\": \"watest\",\n    \"mode\": \"production\",\n    \"whatsapp\": {\n        \"phone_number\": \"+420228225096\"\n    }\n}"
-								},
-								"url": {
-									"raw": "{{server_url}}{{api_version}}/channels",
-									"host": [
-										"{{server_url}}{{api_version}}"
-									],
-									"path": [
-										"channels"
-									]
-								}
-							},
-							"response": [
-								{
-									"name": "Create Channel",
-									"originalRequest": {
-										"method": "POST",
-										"header": [
-											{
-												"key": "Content-Type",
-												"value": "application/json"
-											},
-											{
-												"key": "",
-												"value": ""
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "{\n\t\"type\": \"facebook_messenger\",\n\t\"name\": \"Amio\",\n\t\"webhook\": {\n\t\t\"url\": \"https://requestb.in/tqp125tq\"\n\t},\n\t\"facebook_page\": {\n        \"id\": \"747722755375845\",\n        \"access_token\": \"{{fb.access_token}}\"\n    }\n}"
-										},
-										"url": {
-											"raw": "{{server_url}}{{api_version}}/channels",
-											"host": [
-												"{{server_url}}{{api_version}}"
-											],
-											"path": [
-												"channels"
-											]
-										}
-									},
-									"status": "Created",
-									"code": 201,
-									"_postman_previewlanguage": "json",
-									"header": [
-										{
-											"key": "Cache-Control",
-											"value": "no-cache",
-											"name": "Cache-Control",
-											"description": ""
-										},
-										{
-											"key": "Connection",
-											"value": "keep-alive",
-											"name": "Connection",
-											"description": ""
-										},
-										{
-											"key": "Content-Length",
-											"value": "517",
-											"name": "Content-Length",
-											"description": ""
-										},
-										{
-											"key": "Content-Type",
-											"value": "application/json;charset=UTF-8",
-											"name": "Content-Type",
-											"description": ""
-										},
-										{
-											"key": "Date",
-											"value": "Wed, 06 Dec 2017 16:03:04 GMT",
-											"name": "Date",
-											"description": ""
-										},
-										{
-											"key": "Expires",
-											"value": "0",
-											"name": "Expires",
-											"description": ""
-										},
-										{
-											"key": "Server",
-											"value": "nginx/1.13.7",
-											"name": "Server",
-											"description": ""
-										},
-										{
-											"key": "X-Application-Context",
-											"value": "application:production:8080",
-											"name": "X-Application-Context",
-											"description": ""
-										},
-										{
-											"key": "X-RateLimit-Limit",
-											"value": "5000",
-											"name": "X-RateLimit-Limit",
-											"description": ""
-										},
-										{
-											"key": "X-RateLimit-Remaining",
-											"value": "4983",
-											"name": "X-RateLimit-Remaining",
-											"description": ""
-										},
-										{
-											"key": "X-RateLimit-Reset",
-											"value": "1512578438",
-											"name": "X-RateLimit-Reset",
-											"description": ""
-										},
-										{
-											"key": "Location",
-											"value": "https://api.amio.io/v1/channels/151445772969853",
-											"name": "Location",
-											"description": "",
-											"type": "text"
-										}
-									],
-									"cookie": [],
-									"body": "{\n    \"id\": \"151445772969853\",\n    \"type\": \"facebook_messenger\",\n    \"name\": \"Amio\",\n    \"webhook\": {\n        \"id\": \"151180150794266\",\n        \"url\": \"https://requestb.in/tqp125tq\",\n        \"secret\": \"W9r0S3UBO4K6d6JnZqmXkWVFS1WBy5\",\n        \"ssl_verification\": true\n    },\n    \"facebook_page\": {\n        \"id\": \"747722755375845\",\n        \"name\": \"Amio\",\n        \"category\": \"Internet Company\",\n        \"access_token\": \"***\"\n    }\n}"
-								}
-							]
-						}
-					],
-					"protocolProfileBehavior": {},
-					"_postman_isSubFolder": true
 				}
 			],
 			"description": "Channel represents a medium through which you can send and receive message. See [Documentation](https://docs.amio.io/v1.0/reference#channels).",
@@ -14517,15 +14360,15 @@
 									"name": "List Contacts",
 									"originalRequest": {
 										"auth": {
-									"type": "bearer",
-									"bearer": [
-										{
-											"key": "token",
-											"value": "{{access_token}}",
-											"type": "string"
-										}
-									]
-								},
+											"type": "bearer",
+											"bearer": [
+												{
+													"key": "token",
+													"value": "{{access_token}}",
+													"type": "string"
+												}
+											]
+										},
 										"method": "GET",
 										"header": [
 											{
