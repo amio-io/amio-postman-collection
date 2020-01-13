@@ -1,5 +1,5 @@
 {
-	"id": "f9a29c3a-c568-474e-953e-b7a2011c2d2c",
+	"id": "52ea1c85-6581-4fe4-84e5-84e1932fc4d8",
 	"name": "amio",
 	"values": [
 		{
@@ -23,7 +23,22 @@
 			"enabled": true
 		},
 		{
-			"key": "amio_chat.contact.id",
+			"key": "amio_chat.contact.email",
+			"value": "{{TO_BE_SET}}",
+			"enabled": true
+		},
+		{
+			"key": "email.contact.name",
+			"value": "{{TO_BE_SET}}",
+			"enabled": true
+		},
+		{
+			"key": "email.channel.id",
+			"value": "{{TO_BE_SET}}",
+			"enabled": true
+		},
+		{
+			"key": "email.contact.id",
 			"value": "{{TO_BE_SET}}",
 			"enabled": true
 		},
@@ -139,6 +154,6 @@
 		}
 	],
 	"_postman_variable_scope": "environment",
-	"_postman_exported_at": "2019-10-25T11:58:59.905Z",
-	"_postman_exported_using": "Postman/7.9.0"
+	"_postman_exported_at": "2020-01-13T09:28:59.335Z",
+	"_postman_exported_using": "Postman/7.14.0"
 }
