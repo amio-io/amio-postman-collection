@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "967cc2b0-3e0e-4e49-adf1-177d8654a7cb",
+		"_postman_id": "a00b34b2-7a4f-4a86-96f9-d081f065f0c8",
 		"name": "Amio Messaging API",
 		"description": "Amio Messaging API is a service you can use for implementing various messengers into your software. It provides endpoints for sending messages, creating channels, etc.\n\nThe full API reference documentation can be found at [https://docs.amio.io](https://docs.amio.io/v1.0/reference).",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
@@ -752,9 +752,7 @@
 								}
 							]
 						}
-					],
-					"protocolProfileBehavior": {},
-					"_postman_isSubFolder": true
+					]
 				},
 				{
 					"name": "Email",
@@ -1131,9 +1129,7 @@
 								}
 							]
 						}
-					],
-					"protocolProfileBehavior": {},
-					"_postman_isSubFolder": true
+					]
 				},
 				{
 					"name": "Facebook Messenger",
@@ -4944,9 +4940,7 @@
 							]
 						}
 					],
-					"description": "Messages resource is the main entry point for sending messages. See [Documentation](https://docs.amio.io/reference#facebook-messenger-messages).",
-					"protocolProfileBehavior": {},
-					"_postman_isSubFolder": true
+					"description": "Messages resource is the main entry point for sending messages. See [Documentation](https://docs.amio.io/reference#facebook-messenger-messages)."
 				},
 				{
 					"name": "Mobile",
@@ -5619,7 +5613,6 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "4fb64fec-f241-411f-802c-ed6ee114ddb4",
 								"type": "text/javascript",
 								"exec": [
 									""
@@ -5629,16 +5622,13 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "cb5910a8-beea-4ecf-8275-83b3fcadb766",
 								"type": "text/javascript",
 								"exec": [
 									""
 								]
 							}
 						}
-					],
-					"protocolProfileBehavior": {},
-					"_postman_isSubFolder": true
+					]
 				},
 				{
 					"name": "Viber Bot",
@@ -7927,9 +7917,7 @@
 							]
 						}
 					],
-					"description": "Messages resource is the main entry point for sending messages. See [Documentation](https://docs.amio.io/reference#viber-messages).",
-					"protocolProfileBehavior": {},
-					"_postman_isSubFolder": true
+					"description": "Messages resource is the main entry point for sending messages. See [Documentation](https://docs.amio.io/reference#viber-messages)."
 				},
 				{
 					"name": "Viber Business Messages",
@@ -8980,9 +8968,7 @@
 								}
 							]
 						}
-					],
-					"protocolProfileBehavior": {},
-					"_postman_isSubFolder": true
+					]
 				},
 				{
 					"name": "RCS Business Messages (RBM)",
@@ -9409,9 +9395,7 @@
 								}
 							]
 						}
-					],
-					"protocolProfileBehavior": {},
-					"_postman_isSubFolder": true
+					]
 				},
 				{
 					"name": "Telegram",
@@ -9814,9 +9798,7 @@
 								}
 							]
 						}
-					],
-					"protocolProfileBehavior": {},
-					"_postman_isSubFolder": true
+					]
 				},
 				{
 					"name": "WhatsApp",
@@ -10194,6 +10176,190 @@
 							]
 						},
 						{
+							"name": "Structure",
+							"request": {
+								"auth": {
+									"type": "oauth2",
+									"oauth2": [
+										{
+											"key": "accessToken",
+											"value": "{{access_token}}",
+											"type": "string"
+										},
+										{
+											"key": "addTokenTo",
+											"value": "header",
+											"type": "string"
+										},
+										{
+											"key": "callBackUrl",
+											"type": "any"
+										},
+										{
+											"key": "authUrl",
+											"type": "any"
+										},
+										{
+											"key": "accessTokenUrl",
+											"type": "any"
+										},
+										{
+											"key": "clientId",
+											"type": "any"
+										},
+										{
+											"key": "clientSecret",
+											"type": "any"
+										},
+										{
+											"key": "clientAuth",
+											"type": "any"
+										},
+										{
+											"key": "grantType",
+											"type": "any"
+										},
+										{
+											"key": "scope",
+											"type": "any"
+										},
+										{
+											"key": "username",
+											"type": "any"
+										},
+										{
+											"key": "password",
+											"type": "any"
+										},
+										{
+											"key": "tokenType",
+											"value": "",
+											"type": "string"
+										},
+										{
+											"key": "redirectUri",
+											"type": "any"
+										},
+										{
+											"key": "refreshToken",
+											"type": "any"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "",
+										"value": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"channel\": {\n    \"id\": \"{{whatsapp.channel.id}}\"\n  },\n  \"contact\": {\n    \"id\": \"{{whatsapp.contact.id}}\"\n  },\n  \"content\": {\n    \"type\": \"structure\",\n    \"payload\": {\n      \"text\":\"🚚📦 Your Order #12374 has been shipped\",\n      \"buttons\": [\n        {\n          \"type\":\"postback\",\n          \"title\": \"Track Package\",\n          \"payload\": \"button_payload1\"\n        },\n        {\n          \"type\":\"postback\",\n          \"title\": \"Get Receipt\",\n          \"payload\": \"button_payload2\"\n        },\n        {\n          \"type\":\"postback\",\n          \"title\": \"Change Address\",\n          \"payload\": \"button_payload3\"\n        }\n      ]\n    }\n  }\n}"
+								},
+								"url": {
+									"raw": "{{server_url}}{{api_version}}/messages",
+									"host": [
+										"{{server_url}}{{api_version}}"
+									],
+									"path": [
+										"messages"
+									]
+								},
+								"description": "Send text message. See [documentation](https://docs.amio.io/v1.0/reference#facebook-messenger-messages-text)."
+							},
+							"response": [
+								{
+									"name": "Structure",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											},
+											{
+												"key": "",
+												"value": ""
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"channel\": {\n    \"id\": \"{{amio_chat.channel.id}}\"\n  },\n  \"contact\": {\n    \"id\": \"{{amio_chat.contact.id}}\"\n  },\n  \"content\": {\n    \"type\": \"text\",\n    \"payload\": \"Hello world!\"\n  }\n}"
+										},
+										"url": {
+											"raw": "{{server_url}}{{api_version}}/messages",
+											"host": [
+												"{{server_url}}{{api_version}}"
+											],
+											"path": [
+												"messages"
+											]
+										}
+									},
+									"status": "Created",
+									"code": 201,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Thu, 28 Mar 2019 10:23:07 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json;charset=UTF-8"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Server",
+											"value": "nginx/1.12.1"
+										},
+										{
+											"key": "X-Application-Context",
+											"value": "application:production:8080"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "1000"
+										},
+										{
+											"key": "X-RateLimit-Reset",
+											"value": "1553769649"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "980"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache"
+										},
+										{
+											"key": "Expires",
+											"value": "0"
+										},
+										{
+											"key": "Location",
+											"value": "https://api.amio.io/v1/messages/6516977801299251765"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"id\": \"6516977801299251765\",\n    \"channel\": {\n        \"id\": \"6516692048501556798\",\n        \"type\": \"amio_chat\"\n    },\n    \"contact\": {\n        \"id\": \"6516975200579113522\"\n    },\n    \"content\": {\n        \"type\": \"structure\",\n        \"payload\": {\n        \"text\":\"🚚📦 Your Order #12374 has been shipped\",\n        \"buttons\": [\n            {\n            \"type\":\"postback\",\n            \"title\": \"Track Package\",\n            \"payload\": \"button_payload1\"\n            },\n            {\n            \"type\":\"postback\",\n            \"title\": \"Get Receipt\",\n            \"payload\": \"button_payload2\"\n            },\n            {\n            \"type\":\"postback\",\n            \"title\": \"Change Address\",\n            \"payload\": \"button_payload3\"\n            }\n        ]\n        }\n    }\n}"
+								}
+							]
+						},
+						{
 							"name": "Image",
 							"request": {
 								"auth": {
@@ -10377,13 +10543,10 @@
 								}
 							]
 						}
-					],
-					"protocolProfileBehavior": {},
-					"_postman_isSubFolder": true
+					]
 				}
 			],
-			"description": "Messages resource is the main entry point for sending messages. See [Documentation](https://docs.amio.io/reference#messages).",
-			"protocolProfileBehavior": {}
+			"description": "Messages resource is the main entry point for sending messages. See [Documentation](https://docs.amio.io/reference#messages)."
 		},
 		{
 			"name": "Notifications",
@@ -11127,9 +11290,7 @@
 								}
 							]
 						}
-					],
-					"protocolProfileBehavior": {},
-					"_postman_isSubFolder": true
+					]
 				},
 				{
 					"name": "Facebook Messenger",
@@ -11759,9 +11920,7 @@
 							]
 						}
 					],
-					"description": "Notifications resource is used for sending various events like messages read or typing to the contact. See [Documentation](https://docs.amio.io/reference#notifications).",
-					"protocolProfileBehavior": {},
-					"_postman_isSubFolder": true
+					"description": "Notifications resource is used for sending various events like messages read or typing to the contact. See [Documentation](https://docs.amio.io/reference#notifications)."
 				}
 			],
 			"description": "Notifications resource is used for sending various events like messages read or typing to the contact. See [Documentation](https://docs.amio.io/reference#facebook-messenger-notifications).",
@@ -11769,7 +11928,6 @@
 				{
 					"listen": "prerequest",
 					"script": {
-						"id": "3abd7108-1bdb-40f2-9e2b-a3546cbac664",
 						"type": "text/javascript",
 						"exec": [
 							""
@@ -11779,15 +11937,13 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "cdc3c1e5-34ab-400e-9524-6a9aef4c8d70",
 						"type": "text/javascript",
 						"exec": [
 							""
 						]
 					}
 				}
-			],
-			"protocolProfileBehavior": {}
+			]
 		},
 		{
 			"name": "Channels",
@@ -12721,9 +12877,7 @@
 								}
 							]
 						}
-					],
-					"protocolProfileBehavior": {},
-					"_postman_isSubFolder": true
+					]
 				},
 				{
 					"name": "Email",
@@ -13654,9 +13808,7 @@
 								}
 							]
 						}
-					],
-					"protocolProfileBehavior": {},
-					"_postman_isSubFolder": true
+					]
 				},
 				{
 					"name": "Facebook Messenger",
@@ -14681,9 +14833,7 @@
 							]
 						}
 					],
-					"description": "Channel represents a medium through which you can send and receive messages. See [Documentation](https://docs.amio.io/v1.0/reference#facebook-messenger-channels).",
-					"protocolProfileBehavior": {},
-					"_postman_isSubFolder": true
+					"description": "Channel represents a medium through which you can send and receive messages. See [Documentation](https://docs.amio.io/v1.0/reference#facebook-messenger-channels)."
 				},
 				{
 					"name": "Mobile",
@@ -15763,7 +15913,6 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "140eff98-0884-4c98-849f-86ca357a6b2d",
 								"type": "text/javascript",
 								"exec": [
 									""
@@ -15773,16 +15922,13 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "aa645c1c-48b0-4e80-927b-4709c79251f5",
 								"type": "text/javascript",
 								"exec": [
 									""
 								]
 							}
 						}
-					],
-					"protocolProfileBehavior": {},
-					"_postman_isSubFolder": true
+					]
 				},
 				{
 					"name": "Viber Bot",
@@ -16799,9 +16945,7 @@
 							]
 						}
 					],
-					"description": "Channel represents a medium through which you can send and receive messages. See [Documentation](https://docs.amio.io/v1.0/reference#viber-channels).",
-					"protocolProfileBehavior": {},
-					"_postman_isSubFolder": true
+					"description": "Channel represents a medium through which you can send and receive messages. See [Documentation](https://docs.amio.io/v1.0/reference#viber-channels)."
 				},
 				{
 					"name": "Viber Business Messages",
@@ -17816,9 +17960,7 @@
 								}
 							]
 						}
-					],
-					"protocolProfileBehavior": {},
-					"_postman_isSubFolder": true
+					]
 				},
 				{
 					"name": "RCS Business Messages (RBM)",
@@ -18838,7 +18980,6 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "ffe3aed7-41ff-4748-badf-c03da646a29b",
 								"type": "text/javascript",
 								"exec": [
 									""
@@ -18848,16 +18989,13 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "2c831aad-0660-4aaa-ad9f-a58e78a63dec",
 								"type": "text/javascript",
 								"exec": [
 									""
 								]
 							}
 						}
-					],
-					"protocolProfileBehavior": {},
-					"_postman_isSubFolder": true
+					]
 				},
 				{
 					"name": "Telegram",
@@ -19873,9 +20011,7 @@
 								}
 							]
 						}
-					],
-					"protocolProfileBehavior": {},
-					"_postman_isSubFolder": true
+					]
 				},
 				{
 					"name": "WhatsApp",
@@ -20620,13 +20756,10 @@
 								}
 							]
 						}
-					],
-					"protocolProfileBehavior": {},
-					"_postman_isSubFolder": true
+					]
 				}
 			],
-			"description": "Channel represents a medium through which you can send and receive message. See [Documentation](https://docs.amio.io/v1.0/reference#channels).",
-			"protocolProfileBehavior": {}
+			"description": "Channel represents a medium through which you can send and receive message. See [Documentation](https://docs.amio.io/v1.0/reference#channels)."
 		},
 		{
 			"name": "Contacts",
@@ -21170,9 +21303,7 @@
 								}
 							]
 						}
-					],
-					"protocolProfileBehavior": {},
-					"_postman_isSubFolder": true
+					]
 				},
 				{
 					"name": "Facebook Messenger",
@@ -21851,9 +21982,7 @@
 							]
 						}
 					],
-					"description": "Contact represents the Facebook Messenger user. See [Documentation](https://docs.amio.io/reference#facebook-messenger-contacts).",
-					"protocolProfileBehavior": {},
-					"_postman_isSubFolder": true
+					"description": "Contact represents the Facebook Messenger user. See [Documentation](https://docs.amio.io/reference#facebook-messenger-contacts)."
 				},
 				{
 					"name": "Mobile",
@@ -22506,7 +22635,6 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "96ee822a-2969-4888-83ec-7d7a2b5a6bf2",
 								"type": "text/javascript",
 								"exec": [
 									""
@@ -22516,16 +22644,13 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "c383034a-4fc9-45b4-a802-d5067f0ce469",
 								"type": "text/javascript",
 								"exec": [
 									""
 								]
 							}
 						}
-					],
-					"protocolProfileBehavior": {},
-					"_postman_isSubFolder": true
+					]
 				},
 				{
 					"name": "Viber Bot",
@@ -23033,9 +23158,7 @@
 							]
 						}
 					],
-					"description": "Contact represents the Viber user. See [Documentation](https://docs.amio.io/reference#viber-contacts).",
-					"protocolProfileBehavior": {},
-					"_postman_isSubFolder": true
+					"description": "Contact represents the Viber user. See [Documentation](https://docs.amio.io/reference#viber-contacts)."
 				},
 				{
 					"name": "Viber Business Messages",
@@ -23558,9 +23681,7 @@
 							},
 							"response": []
 						}
-					],
-					"protocolProfileBehavior": {},
-					"_postman_isSubFolder": true
+					]
 				},
 				{
 					"name": "Telegram",
@@ -24101,13 +24222,10 @@
 								}
 							]
 						}
-					],
-					"protocolProfileBehavior": {},
-					"_postman_isSubFolder": true
+					]
 				}
 			],
-			"description": "Contact represents the end user on given channel. See [Documentation](https://docs.amio.io/reference#contacts).",
-			"protocolProfileBehavior": {}
+			"description": "Contact represents the end user on given channel. See [Documentation](https://docs.amio.io/reference#contacts)."
 		},
 		{
 			"name": "Settings",
@@ -24467,9 +24585,7 @@
 								}
 							]
 						}
-					],
-					"protocolProfileBehavior": {},
-					"_postman_isSubFolder": true
+					]
 				},
 				{
 					"name": "Facebook Messenger",
@@ -24840,7 +24956,6 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "da78c609-ff69-4708-9010-0e1082a3fc71",
 								"type": "text/javascript",
 								"exec": [
 									""
@@ -24850,16 +24965,13 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "376752ce-18e6-4e47-8001-22b3e6af11f4",
 								"type": "text/javascript",
 								"exec": [
 									""
 								]
 							}
 						}
-					],
-					"protocolProfileBehavior": {},
-					"_postman_isSubFolder": true
+					]
 				}
 			],
 			"description": "Settings resource is used for setting up certain properties of a channel like get started button, menu, etc. See [Documentation](https://docs.amio.io/reference#settings).",
@@ -24867,7 +24979,6 @@
 				{
 					"listen": "prerequest",
 					"script": {
-						"id": "883f64f7-7d13-4aad-92ff-89e57f5a0f1d",
 						"type": "text/javascript",
 						"exec": [
 							""
@@ -24877,15 +24988,13 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "686a8c88-ae47-4194-8bcb-1d933758b40a",
 						"type": "text/javascript",
 						"exec": [
 							""
 						]
 					}
 				}
-			],
-			"protocolProfileBehavior": {}
+			]
 		},
 		{
 			"name": "Templates",
@@ -25077,13 +25186,9 @@
 								}
 							]
 						}
-					],
-					"protocolProfileBehavior": {},
-					"_postman_isSubFolder": true
+					]
 				}
-			],
-			"protocolProfileBehavior": {}
+			]
 		}
-	],
-	"protocolProfileBehavior": {}
+	]
 }
